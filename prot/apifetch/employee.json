@@ -1,0 +1,46 @@
+{
+    "employee":[
+        {
+            "id":1001,
+            "name":"rutu",
+            "age":32,
+            "salary":25000
+
+        },
+
+        {
+            "id":1002,
+            "name":"dhevan",
+            "age":32,
+            "salary":25000
+        }
+       
+    ],
+
+    "product":[
+        {
+            "image": "https://img-global.cpcdn.com/recipes/3b9c6d673a81d0e8/1200x630cq70/photo.jpg",
+            "subheading": "Reiciendis Laborum ",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa provident illum officiis fugit laudantium voluptatem sit iste delectus qui ex.",
+            "category": "food",
+            "quentity": "1",
+            "price": "500",
+            "id": 3
+          },
+          {
+            "image": "https://www.archanaskitchen.com/images/archanaskitchen/0-Archanas-Kitchen-Recipes/2020/chinese-bhel-is-a-fast-food-item-of-northeast-indi-EYH3AYX_1600.jpg",
+            "subheading": "Reiciendis Laborum ",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa provident illum officiis fugit laudantium voluptatem sit iste delectus qui ex.",
+            "category": "food",
+            "quentity": "1",
+            "price": "600",
+            "id": 4
+          }
+    ],
+
+
+    "imageslider"
+
+
+   
+}

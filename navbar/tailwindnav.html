@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Navbar with Hamburger Menu and Tailwind CSS</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        /* Custom styles */
+        .header-bg {
+            background-image: url("back.jpg"); /* Replace 'your-image-url.jpg' with the path to your background image */
+            background-size: cover;
+height: 600px;
+width:100%;        }
+
+    </style>
+</head>
+<body>
+
+<!-- Header with background image -->
+<header class="bg-indigo-300 header-bg shadow-md">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex items-center justify-between h-16">
+            <div class="flex items-center">
+                <div class="flex-shrink-0  text-black">
+                    Logo
+                </div>
+                <div class="hidden md:block">
+                    <div class=" flex items-baseline gap-3  " style="margin-left: 100%;">
+                        <a href="#" class="bg-gray-400   hover:text-white  text-xl px-3 py-1 rounded-md text-sm font-medium">Home</a></li>
+                        <a href="#" class=" bg-gray-400   hover:text-white  text-xl px-3 py-1 rounded-md text-sm font-medium">About</a>
+                        <a href="#" class=" bg-gray-400    hover:text-white text-xl px-3 py-1 rounded-md text-sm font-medium">Services</a>
+                        <a href="#" class=" bg-gray-400    hover:text-white text-xl px-3 py-1 rounded-md text-sm font-medium">Cars</a>
+                        <a href="#" class=" bg-gray-400    hover:text-white text-xl px-3 py-1 rounded-md text-sm font-medium">Login</a>
+                        <a href="#" class=" bg-gray-400    hover:text-white text-xl px-3 py-1 rounded-md text-sm font-medium">Admin</a>
+
+                    </div>
+                </div>
+            </div>
+            <div class="hidden md:block">
+                <div class="ml-4 flex items-center md:ml-6">
+                    <!-- Add your buttons or other items here -->
+                </div>
+            </div>
+            <!-- Hamburger menu for mobile -->
+            <div class="-mr-2 flex md:hidden">
+                <button id="menu-toggle" class="tex hover:text-white focus:outline-none focus:text-black  ">
+                    <svg viewBox="0 0 20 20" fill="currentColor" class="w-6 h-6">
+                        <path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm0 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm0 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Mobile menu, toggle classes based on menu state. -->
+    <div id="mobile-menu" class="md:hidden hidden">
+        ">
+        <div class="px-2 pt-5 pb-3 space-y-1 sm:px-3 flex flex-col items-center bg-gray-700">
+            <a href="#" class="text-gray-300 hover:bg-blue-300 text-xl text-black hover: block px-5 py-4 rounded-md text-base font-medium">Home</a>
+            <a href="#" class="text-gray-300 hover:bg-blue-300 text-xl  text-black hover:text-white block px-5 py-4  rounded-md text-base font-medium bg-bg-pink-700">About</a>
+            <a href="#" class="text-gray-300 hover:bg-blue-300 text-xl  text-black hover:text-white block px-5 py-4  rounded-md text-base font-medium">Services</a>
+            <a href="#" class="text-gray-300 hover:bg-blue-300 text-xl  text-black hover:text-white block px-5 py-4  rounded-md text-base font-medium">Contact</a>
+            <a href="#" class="text-gray-300 hover:bg-blue-300 text-xl  text-black hover:text-white block px-5 py-4  rounded-md text-base font-medium">Admin</a>
+            <a href="#" class="text-gray-300 hover:bg-blue-300 text-xl  text-black hover:text-white block px-5 py-4  rounded-md text-base font-medium">Login</a>
+            <a href="#" class="text-gray-300 hover:bg-blue-300 text-xl  text-black hover:text-white block px-5 py-4  rounded-md text-base font-medium">Cars</a>
+
+        </div>
+    </div>
+</header>
+
+<script>
+    // JavaScript to toggle the mobile menu
+    document.getElementById('menu-toggle').addEventListener('click', function () {
+        var mobileMenu = document.getElementById('mobile-menu');
+        mobileMenu.classList.toggle('hidden');
+    });
+</script>
+
+</body>
+</html>

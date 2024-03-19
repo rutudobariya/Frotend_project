@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <header class="header">
+        <div class="header-contant">
+            <div class="header-logo">
+                <span class="logo">Shraddha Ecoomerce</span>
+            </div>
+            <div class="header-menu">
+                <nav>
+                    <ul class="navbar">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Womens product</a></li>
+                        <li><a href="#">mens product</a></li>
+                        <li><a href="#">kids product</a></li>
+                        <li><a href="#">offers</a></li>
+                        <li><a href="#"><select name="" id="" class="acc">
+                            <option value="Account">Account</option>
+                        </select></a></li>
+                        <li><a href="">Contactus</a></li>
+                        
+                        <div class="header-icon">
+                            <a href="#" class="fa fa-facebook"></a>
+                            <a href="#" class="fa fa-instagram"></a>
+                            <a href="#" class="fa fa-twitter"></a>
+                            <a href="#" class="fa fa-google"></a>
+                            <a href="#" class="fa fa-telegram"></a>
+
+                        </div>
+                        <li><a href="#" class="error">DON'T CLICK HERE</a></li>
+
+                    </ul>
+                </nav>
+                </div>
+                <div class="hamburger">
+                    <span class="bar" id="bar1"></span>
+                    <span class="bar" id="bar2"></span>
+                    <span class="bar" id="bar3"></span>
+                </div>
+            </div>
+        </header>
+   <script>
+    const hamburger = document.querySelector('.hamburger');
+const menu = document.querySelector('.navbar');
+
+
+hamburger.addEventListener('click', ()=>{
+    hamburger.classList.toggle('active');
+    menu.classList.toggle('active');
+});
+
+function cart(){
+    alert('This Is Only For Demo of Cart Page otherwise you cant see cart without login');
+}
+   </script>
+</body>
+</html>
