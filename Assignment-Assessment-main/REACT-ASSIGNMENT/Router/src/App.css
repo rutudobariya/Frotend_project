@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-weight: bold;
+}
+
+.active {
+  background-color: blue;
+  color: white;
+  text-decoration: none;
+  padding: 13px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(235, 203, 203);
+  align-items: center;
+}
+
+
+.navbar .unactive {
+  text-decoration: none;
+}

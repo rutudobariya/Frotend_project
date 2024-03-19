@@ -1,0 +1,737 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    /* width: 1200px; */
+    margin: 0 auto;
+    border: solid 2px black;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.jsc {
+    justify-content: space-between;
+}
+
+.ali {
+    align-items: center;
+}
+
+.po-rel {
+    position: relative;
+}
+
+.po-ab {
+    position: absolute;
+}
+
+.m-auto {
+    margin: 0 auto;
+}
+
+.col-20 {
+    width: 100%;
+    /* border: solid 2px blueviolet; */
+}
+
+.col-25 {
+    width: 100%;
+    /* border: solid 2px red; */
+}
+
+.col-30 {
+    width: 100%;
+    /* border: solid 2px black; */
+}
+
+.col-40 {
+    width: 100%;
+    /* border: solid 2px blue; */
+}
+
+.col-45 {
+    width: 100%;
+    /* border: solid 2px black; */
+}
+
+.col-70 {
+    width: 100%;
+    /* border: solid 2px black; */
+}
+
+.col-90 {
+    width: 100%;
+    /* border: solid 2px rgb(60, 255, 0); */
+}
+
+.sec-1 {
+    background-image: url(./img/sec-1-main-bg.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar {
+    padding: 25px 0;
+}
+
+.links1 ul li,
+.links2 ul li {
+    display: inline-block;
+}
+
+.links1 a,
+.links2 a {
+    text-decoration: none;
+    padding: 0 0 0 40px;
+    opacity: 0.780;
+    font-size: 35px;
+    color: #ffffff;
+    font-family: "Raleway";
+}
+
+.links1 a:hover,
+.links2 a:hover {
+    color: red;
+}
+
+img {
+    width: 100%;
+}
+
+.sec-one-box {
+    padding: 100px 0;
+}
+
+.sec-1-main {
+    padding: 100px 0;
+}
+
+.sec-box-text {
+    /* padding: 100px 0; */
+    text-align: center;
+}
+
+.sec-box-text .col-70 {
+    opacity: 0.820;
+    background-color: #ffffff;
+    padding: 100px 0;
+}
+
+.sec-box-text h2 {
+    font-size: 104px;
+    color: #2c3a42;
+    font-family: 'Cookie';
+}
+
+.sec-box-text h3 {
+    font-size: 77px;
+    text-transform: uppercase;
+    color: #ad6c12;
+    font-family: "Raleway";
+}
+
+.sec-box-text button {
+    font-size: 38px;
+    color: #26363a;
+    border: none;
+    font-family: "Raleway";
+}
+
+.sec-2 {
+    background-image: url(./img/sec-2Background.png);
+    padding: 100px 0;
+}
+
+.sec-2-main h4 {
+    font-size: 29px;
+    color: #ffffff;
+    font-family: "Raleway";
+    padding: 25px 0;
+}
+
+.sec-2-main p {
+    /* width: 600px; */
+    line-height: 30px;
+    font-size: 19px;
+    color: #ffffff;
+    font-family: "Raleway";
+}
+
+.sec-3 {
+    opacity: 0.800;
+    background-color: #ffffff;
+    padding: 100px 0;
+}
+
+.sec-3 .icon i {
+    background-color: #2a3b40;
+    border-radius: 50%;
+    font-size: 20px;
+}
+
+.sec-3-main h4 {
+    font-size: 19px;
+    line-height: 33px;
+    color: #2a3b40;
+    font-weight: 700;
+    font-family: "Raleway";
+}
+
+.sec-3-main p {
+    font-size: 17px;
+    line-height: 25px;
+    color: #2a3b40;
+    font-family: "Raleway";
+}
+
+.sec-4 {
+    background-image: url(./img/sec-4-\ main-bg.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0;
+}
+
+.sec-4-main-box h2 {
+    font-size: 80px;
+    color: #304751;
+    font-family: "Cookie";
+    text-align: center;
+    padding: 25px 0 0 0;
+}
+
+.sec-4-main-box h3 {
+    font-size: 48px;
+    text-transform: uppercase;
+    color: #ad6c12;
+    font-family: "Raleway";
+    text-align: center;
+    padding: 0 0 25px 0;
+}
+
+.col-25-main h5 {
+    font-size: 23px;
+    text-transform: uppercase;
+    color: #304751;
+    font-family: "Raleway";
+    text-align: center;
+    padding: 25px 0;
+}
+
+.col-25-main p {
+    font-size: 17px;
+    color: #304751;
+    font-family: "Raleway";
+    text-align: center;
+}
+
+.sec-4-main-box {
+    opacity: 0.820;
+    background-color: #ffffff;
+}
+
+.sec-5 {
+    background-image: url(./img/sec-5-main-bg.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* opacity: 0.5; */
+
+}
+
+.sec-5-text {
+    padding: 100px 0;
+}
+
+.sec-5-text h3 {
+    font-size: 29px;
+    color: #2a3b40;
+    font-family: "Raleway";
+    text-align: center;
+}
+
+.sec-5-text p {
+    padding: 50px 0;
+    margin: 0 auto;
+    /* width: 800px; */
+    font-size: 19px;
+    line-height: 33px;
+    color: #2a3b40;
+    font-family: "Raleway";
+    text-align: center;
+}
+
+.sec-5-icon {
+    text-align: center;
+}
+
+.sec-5-link ul li {
+    display: inline-block;
+}
+
+.sec-5-link a {
+    text-decoration: none;
+    padding: 0 25px 0 25px;
+    font-size: 17px;
+    color: #2a3b40;
+    font-family: "Raleway";
+}
+
+.sec-5-link {
+    text-align: center;
+    padding: 50px 0 0 0;
+}
+
+.sec-6-menu .col-30 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.sec-6-menu .col-40 {
+    padding: 25px 0;
+}
+
+.sec-6 {
+    background-image: url(./img/sec-6-main-bg.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0 0 0;
+}
+
+.sec-6-main {
+    background-image: url(./img/sec-6-div-bg.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+
+}
+
+.sec-6-title h1 {
+    padding: 25px 0 0 0;
+    font-size: 77px;
+    color: #304751;
+    font-family: "Cookie";
+    text-align: center;
+}
+
+.sec-6-title h3 {
+    font-size: 48px;
+    text-transform: uppercase;
+    color: #ad6c12;
+    font-family: "Raleway";
+    text-align: center;
+
+}
+
+.sec-6-menu h6 {
+    font-size: 18px;
+    padding: 15px 0 0 0;
+    text-transform: uppercase;
+    color: #304751;
+    font-family: "Raleway";
+}
+
+.sec-6-menu p {
+    padding: 15px 0 15px 0;
+    font-size: 17px;
+    color: #304751;
+    font-family: "Raleway";
+}
+
+.sec-7 {
+    background-image: url(./img/sec-7-main-bg.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0;
+}
+
+.sec-7-main,
+.sec-7-text,
+.sec-7-text-2 {
+    padding: 100px 0;
+}
+
+.sec-8 {
+    background-image: url(./img/sec-2Background.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sec-8-main {
+    text-align: center;
+}
+
+.sec-8-main input {
+    margin: 10px 0 25px 0;
+    padding: 5px 8px;
+    border: solid 2px white;
+    border-radius: 5px;
+    width: 200px;
+    color: #ffffff;
+    background-color: #26363a;
+}
+
+.sec-8-main h1 {
+    padding: 50px 0;
+    font-size: 77px;
+    color: #ffffff;
+    font-family: "Cookie";
+    text-align: center;
+}
+
+.sec-8-main p {
+    font-size: 17px;
+    color: #ffffff;
+    font-family: "Raleway";
+}
+
+.sec-8-main-2 {
+    text-align: center;
+    padding: 25px 0;
+}
+
+.sec-8-main-btn button {
+    padding: 5px 8px;
+    border: solid 2px white;
+    border-radius: 5px;
+    width: 200px;
+    color: #ffffff;
+    background-color: #26363a;
+}
+
+.sec-9 {
+    background-image: url(./img/sec-9-main-bg.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0;
+}
+
+.sec-9-main,
+.sec-9-text,
+.sec-9-text-2 {
+    padding: 100px 0;
+}
+
+.sec-10 {
+    background-image: url(./img/sec-10-bg.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sec-10-text h2 {
+    font-size: 77px;
+    color: #304751;
+    font-family: "Cookie";
+    text-align: center;
+}
+
+.sec-10-text h3 {
+    font-size: 48px;
+    text-transform: uppercase;
+    color: #ad6c12;
+    font-family: "Raleway";
+    text-align: center;
+    padding: 0 0 30px 0;
+}
+
+.sec-10-main img {
+    width: 100%;
+}
+
+.sec-10-main-2 .col-30 {
+    background-color: #ffffff;
+}
+
+.sec-10-main-2 h6 {
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 33px;
+    color: #555555;
+    font-family: "Raleway";
+    padding: 10px 0;
+}
+
+.sec-10-main-2 p {
+    /* width: 300px; */
+    font-size: 18px;
+    color: #4f4e4e;
+    font-family: "Raleway";
+    padding: 10px 0;
+}
+
+.sec-10-main-2 h5 {
+    /* width: 100px; */
+    font-size: 17px;
+    color: #4f4e4e;
+    font-family: "Raleway";
+    padding: 10px 0 0 0;
+    border-bottom: solid 5px orangered;
+}
+
+.sec-10-main-2 {
+    padding: 0 0 100px 0;
+}
+
+.sec-11 {
+    background-image: url(./img/sec-2Background.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sec-11-text {
+    padding: 40px 0;
+}
+
+.sec-11-text h2 {
+    font-size: 83px;
+    color: #ffffff;
+    font-family: "Raleway";
+    text-align: center;
+}
+
+.sec-11-text p {
+    padding: 25px 0;
+    /* width: 800px; */
+    margin: 0 auto;
+    font-size: 19px;
+    line-height: 33px;
+    color: #ffffff;
+    font-family: "Raleway";
+    text-align: center;
+}
+
+.sec-11-text h4 {
+    font-size: 19px;
+    color: #ffffff;
+    font-family: "Raleway";
+    text-align: center;
+}
+
+.sec-11-icon {
+    text-align: center;
+    padding: 50px 0 0 0;
+}
+
+.sec-11-icon i {
+    margin: 0 10px 0 10px;
+    font-size: 25px;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 50%;
+}
+
+.foot {
+    background-image: url(./img/footer-bg.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footer-main {
+    padding: 100px 0;
+}
+
+.footer-main h4 {
+    padding: 25px 0;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #2d2f2a;
+    font-family: "Raleway";
+}
+
+.footer-main p {
+    font-size: 19px;
+    line-height: 29px;
+    color: #2d2f2a;
+    font-family: "Raleway";
+}
+
+@media(min-width : 576px) {
+    .container {
+        width: 520px;
+        border: solid 2px black;
+    }
+
+    .col-20 {
+        width: 100%;
+        border: solid 2px blueviolet;
+        margin: 10px auto;
+    }
+
+    .col-25 {
+        width: 100%;
+        border: solid 2px red;
+    }
+
+    .col-30 {
+        width: 100%;
+        border: solid 2px black;
+        margin: 10px auto;
+    }
+
+    .col-40 {
+        width: 100%;
+        border: solid 2px blue;
+    }
+
+    .col-45 {
+        width: 100%;
+        border: solid 2px black;
+    }
+
+    .col-70 {
+        width: 100%;
+        border: solid 2px black;
+    }
+
+    .col-90 {
+        width: 100%;
+        border: solid 2px rgb(60, 255, 0);
+    }
+}
+
+@media(min-width : 768px) {
+    .container {
+        width: 720px;
+        border: solid 2px black;
+    }
+
+    .col-20 {
+        width: 60%;
+        border: solid 2px blueviolet;
+        margin: 10px auto;
+    }
+
+    .col-25 {
+        width: 50%;
+        border: solid 2px red;
+    }
+
+    .col-30 {
+        width: 60%;
+        border: solid 2px black;
+        margin: 10px auto;
+    }
+
+    .col-40 {
+        width: 40%;
+        border: solid 2px blue;
+    }
+
+    .col-45 {
+        width: 45%;
+        border: solid 2px black;
+    }
+
+    .col-70 {
+        width: 100%;
+        border: solid 2px black;
+    }
+
+    .col-90 {
+        width: 90%;
+        border: solid 2px rgb(60, 255, 0);
+    }
+}
+
+@media(min-width : 992px) {
+    .container {
+        width: 920px;
+        border: solid 2px black;
+    }
+
+    .col-20 {
+        width: 20%;
+        border: solid 2px blueviolet;
+    }
+
+    .col-25 {
+        width: 25%;
+        border: solid 2px red;
+    }
+
+    .col-30 {
+        width: 30%;
+        border: solid 2px black;
+    }
+
+    .col-40 {
+        width: 40%;
+        border: solid 2px blue;
+    }
+
+    .col-45 {
+        width: 45%;
+        border: solid 2px black;
+    }
+
+    .col-70 {
+        width: 70%;
+        border: solid 2px black;
+    }
+
+    .col-90 {
+        width: 90%;
+        border: solid 2px rgb(60, 255, 0);
+    }
+}
+
+@media(min-width : 1200px) {
+    .container {
+        width: 1150px;
+        border: solid 2px black;
+    }
+
+    .col-20 {
+        width: 20%;
+        border: solid 2px blueviolet;
+    }
+
+    .col-25 {
+        width: 25%;
+        border: solid 2px red;
+    }
+
+    .col-30 {
+        width: 30%;
+        border: solid 2px black;
+    }
+
+    .col-40 {
+        width: 40%;
+        border: solid 2px blue;
+    }
+
+    .col-45 {
+        width: 45%;
+        border: solid 2px black;
+    }
+
+    .col-70 {
+        width: 70%;
+        border: solid 2px black;
+    }
+
+    .col-90 {
+        width: 90%;
+        border: solid 2px rgb(60, 255, 0);
+    }
+}

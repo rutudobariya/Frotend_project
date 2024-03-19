@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math Operation</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+        }
+
+        .math {
+            background-color: burlywood;
+        }
+
+        table {
+            font-size: 20px;
+            padding: 50px;
+            border: 5px solid;
+            border-radius: 15px;
+        }
+
+        button {
+            font-size: 17px;
+            font-weight: bolder;
+            color: black;
+            padding: 5px 10px;
+            background-color: darkgray;
+        }
+
+        #answer {
+            font-weight: bolder;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="math">
+        <table>
+            <tr>
+                <th colspan="2">
+                    <h3>Math Operations</h3>
+                </th>
+            </tr>
+            <tr>
+                <td> <label for="first-number">Enter 1st number:</label></td>
+                <td><input type="text" id="first-number"></td>
+            </tr>
+            <tr>
+                <td><label for="second-number">Enter 2nd number:</label></td>
+                <td><input type="text" id="second-number"></td>
+            </tr>
+            <tr>
+                <td> <button type="button" id="plus">+</button>
+                    <button type="button" id="minus">-</button>
+                    <button type="button" id="multiply">*</button>
+                </td>
+                <td>
+                    <p>Answer is: <span id="answer"></span></p>
+                </td>
+            </tr>
+            <tr>
+                <td><button type="button" id="devide">/</button>
+                    <button type="button" id="modulus">%</button>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <script>
+        const answer = document.getElementById("answer");
+
+        document.getElementById("plus").addEventListener("click", () => {
+            let x = parseFloat(document.getElementById("first-number").value);
+            let y = parseFloat(document.getElementById("second-number").value);
+            let result = x + y;
+            answer.innerHTML = result;
+        });
+
+
+        document.getElementById("minus").addEventListener("click", () => {
+            let x = parseFloat(document.getElementById("first-number").value);
+            let y = parseFloat(document.getElementById("second-number").value);
+            let result = x - y;
+            answer.innerHTML = result;
+        });
+
+        document.getElementById("multiply").addEventListener("click", () => {
+            let x = parseFloat(document.getElementById("first-number").value);
+            let y = parseFloat(document.getElementById("second-number").value);
+            let result = x * y;
+            answer.innerHTML = result;
+        });
+
+        document.getElementById("devide").addEventListener("click", () => {
+            let x = parseFloat(document.getElementById("first-number").value);
+            let y = parseFloat(document.getElementById("second-number").value);
+            if (y === 0) {
+                alert("Cannot divide by zero");
+                answer.innerHTML = "";
+            } else {
+                let result = x / y;
+                answer.innerHTML = result;
+            }
+        });
+
+        document.getElementById("modulus").addEventListener("click", () => {
+            let x = parseInt(document.getElementById("first-number").value);
+            let y = parseInt(document.getElementById("second-number").value);
+            let result = x % y;
+            answer.innerHTML = result;
+
+        });
+    </script>
+</body>
+
+</html>

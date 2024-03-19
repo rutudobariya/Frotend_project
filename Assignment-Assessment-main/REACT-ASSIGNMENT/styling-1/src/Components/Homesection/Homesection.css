@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.hometext {
+  text-align: right;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+.mainsection {
+  background-image: url(./images/Homesection.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px;
+  margin-top: 15px;
+}
+.hometext {
+  font-size: 80px;
+  color: #333333;
+  font-weight: 400;
+  margin: 10px 0;
+}
+.btn {
+  background-color: #7b8d29;
+  font-size: 25px;
+  padding: 8px;
+  color: #ffffff;
+  font-weight: 400;
+  margin: 10px 0;
+}
+.button {
+  text-align: right;
+}
+.homelorem {
+  text-align: right;
+  margin: 10px 0;
+}
+.socialicon {
+  text-align: right;
+  font-size: 18px;
+}
+.socialicon ul li {
+  list-style: none;
+}
