@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>barcode</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <!-- <script type="text/javascript" src="js/jquery.classyqr.js"></script> -->
+  <script src="../barcode/js/min.js"></script>
+</head>
+
+<body>
+    <div class="qrcode" id="qr"></div>
+    <script>
+        $(document).ready(function() {
+        $('#qr').ClassyQR({
+           create: true, // signals the library to create the image tag inside the container div.
+           type: 'i am Rutu jayantilal dobariya', // text/url/sms/email/call/locatithe text to encode in the QR. on/wifi/contact, default is TEXT
+           text: 'Welcome to jQueryScript!' // the text to encode in the QR. 
+        });
+        });
+        </script>
+</body>
+</html>
