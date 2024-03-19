@@ -1,0 +1,444 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+      background-color: black;
+      font-family: sans-serif;
+  }
+  
+  .container{
+      width: 90%;
+      margin: 0 auto;
+  }
+  .topsection{
+      background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../image/bg\ img.avif);
+      height: 43vh;
+      width: 100%;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position:center center;
+      /* opacity: 0.8; */
+   
+  }
+  
+  .logo img{
+      width: 100px;
+      /* border: 2px solid red; */
+     
+  }
+  
+  .navbar{
+      display: flex;
+      background-color: rgb(34, 32, 32, 0.4);
+      justify-content: space-around;
+     
+      height: 60px;
+  }
+  .aboutme{
+     
+  }
+  .aboutme ul li{
+      list-style: none;
+     display: inline-block;
+     /* border: 2px solid red; */
+     /* padding: 10px; */
+     line-height: 60px;
+     margin: 0px 10px;
+     text-transform: uppercase;
+     opacity: 0.7;
+  }
+  
+  
+  .aboutme ul li a{
+      text-decoration: none;
+      color: white;
+      
+  }
+  .readmore{
+      width: 70%;
+      margin: 0 auto;
+      color: white;
+      margin-top: 40px;
+  }
+  .readthermo{
+      color: orangered;
+  }
+  .readmore h2{
+      text-align: center;
+      
+  }
+  
+  .readmore p{
+      margin-top: 15px;
+      text-align: center;
+      opacity: 0.6;
+  }
+  .readmore button{
+  
+      position: relative;
+      left: 430px;
+      top: 40px;
+      background-color: orangered;
+      color: white;
+      padding: 10px;
+       width: 120px;
+       border-style: none;
+       box-shadow: 2px 3px 20px rgb(29, 28, 28);
+       border-radius: 3px;
+       cursor: pointer;
+     
+  }
+  .topmid{
+      height: 45vh;
+      background-color: rgb(255, 255, 255);
+     /* border: 2px solid green;
+       */
+    
+   
+  }
+  .topmid h2{
+      
+      text-align: center;
+      position: relative;
+      top: 20px;
+      border-bottom: 2px solid orangered;
+      width: 170px;
+      margin: 0 auto;
+  }
+  
+  .topmidtwo h2{
+      
+     /* margin-top: 20px; */
+  }
+  .icon{
+      /* border: 2px solid red; */
+      display: flex;
+      height: 50px;
+      justify-content: center;
+      justify-content: space-around;
+      margin-top: 160px;
+      align-items: center;
+      position: absolute;
+      left: 205px;
+      width: 140px;
+      color: white;
+      background-color: rgb(29, 28, 28, 0.6);
+      
+  }
+  
+  .midabout{
+      display: flex;
+      /* border: 3px solid red; */
+      margin: 0 130px;
+      margin-top: 40px;
+  }
+  .midabout button{
+      background-color: orangered;
+      color: white;
+      padding: 10px;
+       width: 120px;
+       border-style: none;
+       
+       border-radius: 3px;
+       cursor: pointer;
+  }
+  .topmidthird{
+      background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../image/working\ pic.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+    
+      height: 17vh;
+  }
+  .dot{
+      width: 7px;
+      height: 7px;
+      background-color: orangered;
+      border-radius: 50%;
+      display: inline-block;
+      position: relative;
+      left: 680px;
+      top: 8px;
+  }
+  .freelance{
+      margin-left: 20px;
+  }
+  .topmidthird h3{
+      color: white;
+      text-align: center;
+      padding: 10px;
+      /* border: 2px solid green; */
+      position: relative;
+      top: 20px;
+      font-family: sans-serif;
+    
+    
+   
+  }
+  .playbtn{
+      background-color: transparent;
+      border: none;
+      
+      display: block;
+      margin: 0 auto;
+      margin-top: 25px;
+      cursor: pointer;
+     
+  
+      
+  }
+  
+  
+  
+  /* MY SERVICES SECTN */
+  
+  .servicemain{
+      margin-top: 40px;
+  }
+  .servicessection{
+  
+     height: 400px;
+    background-color: white;
+    
+  }
+  
+  .servicessection h2{
+      text-align: center;
+      position: relative;
+      top: 20px;
+      border-bottom: 2px solid orangered;
+      width: 200px;
+      margin: 0 auto;
+  }
+  .ourservice{
+      display: flex;
+      justify-content: space-between;
+      margin: 0 120px;
+      text-align: center;
+     
+   
+  }
+  .ourservicetwo{
+      display: flex;
+      justify-content: space-around;
+      margin: 0 120px;
+      text-align: center;
+      margin-top: 30px;
+  }
+  .fa-brands, .fa-phone, .fa-cloud-arrow-down, .fa-code, .fa-pen-nib, .fa-desktop {
+      color: orangered;
+  }
+  /* 
+  PORTFOLIO SECTION */
+  
+  .portfoliasection h2{
+      text-align: center;
+      position: relative;
+      top: 20px;
+      border-bottom: 2px solid orangered;
+      width: 250px;
+      margin: 0 auto;
+  }
+  .portfoliasection{
+      height: 600px;
+      background-color: white;
+  }
+  .portnavbar ul {
+      display: flex;
+      justify-content: center;
+     
+  }
+  .portnavbar ul li{
+      list-style: none;
+      padding: 20px;
+  }
+  .portfolioimg{
+      margin: 0 140px;
+     
+  }
+  .portfolioimg img{
+      padding: 10px;
+  }
+  
+  /* TEAMSECTION */
+  .teamsection{
+      height: 400px;
+      background-color: white;
+  }
+  .teamsection h2{
+      text-align: center;
+      position: relative;
+      top: 20px;
+      border-bottom: 2px solid orangered;
+      width: 250px;
+      margin: 0 auto;
+  }
+  
+  .teamimg{
+      /* margin-top: 80px; */
+      margin: 0 160px;
+      position: relative;
+      top: 20px;
+  }
+  
+  .teamimg img{
+      padding: 10px;
+  }
+  
+  /* namesection */
+  
+  .namesection{
+      height: 250px;
+      background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url(../image/namesecimg.jpg);
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      color: white;
+  }
+  .namesection img{
+      display: block;
+      margin: 0 auto;
+      border-radius: 50%;
+      position: relative;
+      top: 30px;
+      box-shadow: 0px 0px 2px rgb(51, 48, 48);
+  
+  }
+  .namesection h3{
+      text-align: center;
+      margin-top: 40px;
+  }
+  .namesection p{
+      text-align: center;
+      margin-top: 25px;
+      opacity: 0.6;
+  }
+  
+  /* blogsection */
+  .blogsection{
+     height: 670px;
+     background-color: white;
+  }
+  .blogsection h2{
+      text-align: center;
+      position: relative;
+      top: 20px;
+      border-bottom: 2px solid orangered;
+      width: 250px;
+      margin: 0 auto;
+  }
+  
+  .blogweb{
+   
+      display: flex;
+      justify-content: space-around;
+     position: relative;
+  
+     top: 40px;
+      margin: 0px 120px;
+  }
+  .webdesig{
+      box-shadow: 0px 0px 5px rgb(66, 63, 63);
+      padding: 15px;
+      
+  }
+  
+  .webdesig button{
+      background-color: black;
+      color: white;
+      padding: 8px;
+      border-radius: 2px;
+      cursor: pointer;
+  }
+  
+  /* formsection */
+  .formsection h2{
+      text-align: center;
+      position: relative;
+      top: 20px;
+      border-bottom: 2px solid orangered;
+      width: 200px;
+      margin: 0 auto;
+  }
+  .cont{
+      color: white
+  }
+  
+  .formsection{
+      height: 420px;
+     background-color: wheat;
+     background:linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url(../image/apple\ pic.jpg);
+  
+     background-repeat: no-repeat;
+     background-position: center center;
+     background-size: cover;
+  }
+  
+  .contactform{
+      /* border: 2px solid red; */
+      width: 84%;
+      margin: 0 auto;
+      margin-top: 50px;
+  
+  }
+  #yourname{
+      padding: 8px;
+      width: 49%;
+      background: transparent;
+      color: white;
+      border: 1px solid white;
+      border-radius: 4px;
+  }
+  
+  #yourmail{
+      padding: 8px;
+      width: 48%;
+      background: transparent;
+      color: white;
+      border: 1px solid white;
+      border-radius: 4px;
+      margin-left: 25px;
+  }
+  
+  #textarea{
+      padding: 8px;
+      background: transparent;
+      color: white;
+      border: 1px solid white;
+      border-radius: 4px;
+      margin-top: 25px;
+    
+  }
+  .contactform .readbtn{
+      padding: 8px;
+      background-color: red;
+      color: white;
+      border-radius: 3px;
+      border-style: none;
+      margin-top: 20px;
+      width: 140px;
+      cursor: pointer;
+      
+  }
+  
+  /* footer section */
+  .footerbar{
+      background-color: rgb(40, 37, 37);
+      height: 50px;
+      display: flex;
+      justify-content: space-around;
+      color: white;
+      align-items: center ;
+     
+     
+  }
+  
+  .footericon{
+      
+  }
+  .fa-facebook, .fa-twitter, .fa-google, .fa-instagram{
+      color: white;
+      padding: 8px;
+  }
