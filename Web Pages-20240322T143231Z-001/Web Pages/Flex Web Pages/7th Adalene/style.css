@@ -1,0 +1,955 @@
+
+/* font-family: "Didot Italic";
+font-family: "Avenir Light";
+font-family: "Poppins", sans-serif; */
+
+@import url(https://db.onlinewebfonts.com/c/50fdb00bd31f40c13c4fab9f1de2387e?family=Didot+Italic);
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header .search {
+    /* border: 1px solid black; */
+    width: 30%;
+    height: 100%;    
+    display: flex;
+    align-items: center;
+}
+
+header .search .icon1 {
+    border-bottom: 2px solid #BC4C2A;
+    width: 40%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 10%;
+    color: #BC4C2A;
+    font-weight: bold;
+}
+
+header .search .icon1 input {
+    border: none;
+    outline: none;
+}
+
+header .search .icon1 input::placeholder {
+    color: #BC4C2A;
+    font-weight: bold;
+}
+
+header .logo {
+    /* border: 1px solid black; */
+    width: 10%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+header .logo .logomain {
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 50px;
+}
+
+header .logo .logotext {
+    font-family: "Didot Italic";
+    font-size: 40px;
+    color: #BC4C2A;
+    font-weight: bold;
+    text-align: center;
+}
+
+header .iconmain {
+    /* border: 1px solid blue; */
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+header .iconmain .icon2 {
+    /* border: 1px solid black; */
+    width: 40%;
+    height: 100%;
+}
+
+header .iconmain .icon2 ul {
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style-type: none;
+    font-size: 20px;
+}
+
+header .user {
+    /* border: 1px solid black; */
+    width: 50%;
+    height: 100%;
+}
+
+header .user ul {
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    font-size: 20px;
+    color: #BC4C2A;
+    align-items: center;
+}
+
+.header2 {
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.header2 ul {
+    /* border: 1px solid red; */
+    width: 50%;
+    height: 100%;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: "Avenir Light";
+    font-weight: bold;
+}
+
+
+section {
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 700px;
+    background-image: url(Image/1st\ bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    filter: brightness(70%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section .sec1content {
+    /* border: 1px solid black; */
+    width: 50%;
+    height: 300px;
+}
+
+section .sec1content .sec1head {
+    font-family: "Poppins", sans-serif;
+    font-size: 45px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+section .sec1content .btn1 {
+    border: 2px solid black;
+    width: 25%;
+    height: 50px;
+    font-family: "Avenir Light";
+    font-size: 18px;
+    /* letter-spacing: 1px; */
+    font-weight: bold;
+    background: transparent;
+    margin-top: 50px;
+    transition: 0.5s;
+}
+
+section .sec1content .btn1:hover {
+    background-color: black;
+    color: white;
+}
+
+.sec2 {
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    align-items: center;
+}
+
+.sec2 .sec2main {
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 990px;
+}
+
+.sec2 .sec2main .sec2head {
+    font-family: "Poppins", sans-serif;
+    font-size: 25px;
+    letter-spacing: 5px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.sec2 .sec2main .hr1 {
+    border: none;
+    background-color: black;
+    width: 1%;
+    height: 3px;
+    margin-left: 49.5%;
+    margin-top: 30px;
+}
+
+.sec2 .sec2main .sec2store {
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 620px;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.sec2 .sec2main .sec2store .s2s1 {
+    /* border: 1px solid black; */
+    width: 21%;
+    height: 510px;
+    border-radius: 20px;
+    position: relative;
+}
+
+.sec2 .sec2main .sec2store .s2s2 {
+    /* border: 1px solid black; */
+    width: 21%;
+    height: 510px;
+    border-radius: 20px;
+    position: relative;
+}
+
+.sec2 .sec2main .sec2store .s2s3 {
+    /* border: 1px solid black; */
+    width: 21%;
+    height: 510px;
+    border-radius: 20px;
+    position: relative;
+}
+
+.sec2 .sec2main .sec2store .s2s4 {
+    /* border: 1px solid black; */
+    width: 21%;
+    height: 510px;
+    border-radius: 20px;
+    position: relative;
+}
+
+.sec2 .sec2main .sec2store .s2s1text {
+    /* border: 1px solid black; */
+    width: 21%;
+    height: 100px;
+}
+
+.sec2 .sec2main .sec2store .s2s2text {
+    /* border: 1px solid black; */
+    width: 21%;
+    height: 100px;
+}
+
+.sec2 .sec2main .sec2store .s2s3text {
+    /* border: 1px solid black; */
+    width: 21%;
+    height: 100px;
+}
+
+.sec2 .sec2main .sec2store .s2s4text {
+    /* border: 1px solid black; */
+    width: 21%;
+    height: 100px;
+}
+
+.sec2 .sec2main .sec2store .s2s1 .tag {
+    font-family: "Didot Italic";
+    font-weight: bold;
+    /* border: 1px solid black; */
+    width: 100px;
+    height: 30px;
+    background-color: #BC4C2A;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12.5px;
+    position: absolute;
+    top: 20px;
+    left: 020px  
+}
+
+.sec2 .sec2main .sec2store .s2s2 .tag {
+    font-family: "Didot Italic";
+    font-weight: bold;
+    /* border: 1px solid black; */
+    width: 100px;
+    height: 30px;
+    background-color: #BC4C2A;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12.5px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.sec2 .sec2main .sec2store .s2s3 .tag {
+    font-family: "Didot Italic";
+    font-weight: bold;
+    /* border: 1px solid black; */
+    width: 100px;
+    height: 30px;
+    background-color: #BC4C2A;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12.5px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.sec2 .sec2main .sec2store .s2s4 .tag {
+    font-family: "Didot Italic";
+    font-weight: bold;
+    /* border: 1px solid black; */
+    width: 100px;
+    height: 30px;
+    background-color: #BC4C2A;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12.5px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.sec2 .sec2main .sec2store .s2s1 img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.sec2 .sec2main .sec2store .s2s2 img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.sec2 .sec2main .sec2store .s2s3 img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.sec2 .sec2main .sec2store .s2s4 img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.sec2 .sec2main .sec2store .s2s1text .s2p {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.sec2 .sec2main .sec2store .s2s2text .s2p {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.sec2 .sec2main .sec2store .s2s3text .s2p {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.sec2 .sec2main .sec2store .s2s4text .s2p {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.sec2 .sec2main .sec2store .s2s1text .s2price {
+    font-family: "Didot Italic";
+    text-align: center;
+    font-size: 18px;
+    color: #BC4C2A;
+    margin-top: 10px;
+    font-weight: bold;
+} 
+
+.sec2 .sec2main .sec2store .s2s2text .s2price {
+    font-family: "Didot Italic";
+    text-align: center;
+    font-size: 18px;
+    color: #BC4C2A;
+    margin-top: 10px;
+    font-weight: bold;
+} 
+
+.sec2 .sec2main .sec2store .s2s3text .s2price {
+    font-family: "Didot Italic";
+    text-align: center;
+    font-size: 18px;
+    color: #BC4C2A;
+    margin-top: 10px;
+    font-weight: bold;
+} 
+
+.sec2 .sec2main .sec2store .s2s4text .s2price {
+    font-family: "Didot Italic";
+    text-align: center;
+    font-size: 18px;
+    color: #BC4C2A;
+    margin-top: 10px;
+    font-weight: bold;
+} 
+
+.sec2 .sec2main .btn2 {
+    border: 1px solid #BC4C2A;
+    width: 13%;
+    height: 60px;
+    margin-top: 55px;
+    color: #BC4C2A;
+    font-family: "Avenir Light";
+    font-size: 18px;
+    transition: 0.5s;
+}
+
+.sec2 .sec2main .btn2:hover {
+    background-color: #BC4C2A;
+    color: white;
+}
+
+.sec3 {
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 700px;
+    display: flex;
+
+}
+
+.sec3 .s31 {
+    /* border: 1px solid black; */
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #F6F3EF;
+}
+
+.sec3 .s32 {
+    /* border: 1px solid black; */
+    width: 50%;
+    height: 100%;
+    position: relative;
+}
+
+.sec3 .s31 .s31text {
+    font-family: "Avenir Light";
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.sec3 .s31 .s31price {
+    font-family: "Didot Italic";
+    font-weight: bold;
+    color: #BC4C2A;
+    margin-top: 20px;
+}
+
+.sec3 .s32 .s3bg {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.sec3 .s32 .s3bg img {
+    width: 100%;
+    height: 100%;
+    transition: 1s;
+}
+
+.sec3 .s32 img:hover {
+    transform: scale(1.2);
+}
+
+.sec3 .s32 .s32head {
+    font-family: "Poppins", sans-serif;
+    font-size: 25px;
+    letter-spacing: 5px;
+    font-weight: bold;
+    text-decoration: underline;
+    position: absolute;
+    top: 350px;
+    left: 300px;
+    transition: 1s;
+}
+
+.sec3 .s32 .s32head:hover {
+    transform: scale(1.1);
+}
+
+.sec4 {
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 700px;
+    display: flex;
+}
+
+.sec4 .s4a {
+    /* border: 1px solid black; */
+    width: 50%;
+    height: 100%;
+    position: relative;
+}
+
+.sec4 .s4b {
+    /* border: 1px solid black; */
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F6F3EF;
+}
+
+.sec4 .s4a .s4bg {
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.sec4 .s4a .s4bg img {
+    width: 100%;
+    height: 100%;
+    transition: 1s;
+}
+
+.sec4 .s4a .s4bg img:hover {
+    transform: scale(1.2);
+}
+
+.sec4 .s4a .s4ahead {
+    font-family: "Poppins", sans-serif;
+    font-size: 25px;
+    letter-spacing: 5px;
+    text-decoration: underline;
+    font-weight: bold;
+    position: absolute;
+    top: 350px;
+    left: 350px;
+    transition: 1s;
+}
+
+.sec4 .s4a .s4ahead:hover {
+    transform: scale(1.1);
+}
+
+.sec4 .s4b .s4bcontent {
+    border: 1px solid black;
+    width: 100%;
+    height: 300px;
+    text-align: center;
+}
+
+.sec4 .s4b .s4btext {
+    font-family: "Avenir Light";
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.sec4 .s4b .s4bprice {
+    font-family: "Didot Italic";
+    font-weight: bold;
+    color: #BC4C2A;
+    margin-top: 20px;
+}
+
+.sec5 {
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.sec5 .s5a {
+    /* border: 1px solid black; */
+    width: 27%;
+    height: 350px;
+    background-image: url(Image/s501.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.sec5 .s5a .s5content {
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 100%;
+}
+
+.sec5 .s5a .s5content .p1 {
+    font-family: "Didot Italic";
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 80px;
+    color: white;
+}
+
+.sec5 .s5a .s5content .p2 {
+    font-family: "Poppins", sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 5px;
+    color: white;
+}
+
+.sec5 .s5a .s5content .hr2 {
+    border: none;
+    width: 5%;
+    height: 5px;
+    background-color: white;
+    margin-left: 47.5%;
+    margin-top: 10px;
+}
+
+.sec5 .s5a .s5content .p3 {
+    font-family: "Avenir Light";
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 50px;
+    color: white;
+}
+
+.sec5 .s5b {
+    /* border: 1px solid black; */
+    width: 27%;
+    height: 350px;
+    background-image: url(Image/s502.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.sec5 .s5b .s5content .p1 {
+    font-family: "Didot Italic";
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 80px;
+    color: white;
+}
+
+.sec5 .s5b .s5content .p2 {
+    font-family: "Poppins", sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 5px;
+    color: white;
+}
+
+.sec5 .s5b .s5content .hr2 {
+    border: none;
+    width: 5%;
+    height: 5px;
+    background-color: white;
+    margin-left: 47.5%;
+    margin-top: 10px;
+}
+
+.sec5 .s5b .s5content .p3 {
+    font-family: "Avenir Light";
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 50px;
+    color: white;
+}
+
+.sec5 .s5c {
+    /* border: 1px solid black; */
+    width: 27%;
+    height: 350px;
+    background-image: url(Image/s503.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.sec5 .s5c .s5content .p1 {
+    font-family: "Didot Italic";
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 80px;
+    color: white;
+}
+
+.sec5 .s5c .s5content .p2 {
+    font-family: "Poppins", sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 5px;
+    color: white;
+}
+
+.sec5 .s5c .s5content .hr2 {
+    border: none;
+    width: 5%;
+    height: 5px;
+    background-color: white;
+    margin-left: 47.5%;
+    margin-top: 10px;
+}
+
+.sec5 .s5c .s5content .p3 {
+    font-family: "Avenir Light";
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 50px;
+    color: white;
+}
+
+.sec6 {
+    border: 1px solid #F6F3EF;
+    width: 100%;
+    height: 900px;
+    background-color: #F6F3EF;
+}
+
+.sec6 .p1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 25px;
+    margin-top: 100px;
+    line-height: 40px;
+}
+
+.sec6 .p2 {
+    font-family: "Didot Italic";
+    font-weight: bold;
+    font-size: 25px;
+    color: #BC4C2A;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.sec6 .s6main {
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 400px;
+    display: flex;
+    margin-top: 100px;
+}
+
+.sec6 .s6main .s6img {
+    /* border: 1px solid black; */
+    width: 25%;
+    height: 100%;
+}
+
+.sec6 .s6main .s6img img {
+    width: 100%;
+    height: 100%;
+}
+
+.sec6 .s6main2 {
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sec6 .s6main2 .s6m2 {
+    /* border: 1px solid black; */
+    width: 20%;
+    height: 100%;
+}
+
+.sec6 .s6main2 .s6m2 .hr3 {
+    border: none;
+    width: 7%;
+    height: 4px;
+    background-color: #BC4C2A;
+    margin-left: 46.5%;
+    margin-top: 50px;
+}
+
+.sec6 .s6main2 .s6m2 .s6text {
+    font-family: "Didot Italic";
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    color: #BC4C2A;
+    margin-top: 15px;
+}
+
+footer {
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 500px;
+    display: flex;
+}
+
+footer .logo {
+    /* border: 1px solid black; */
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .logo a {
+    /* border: 1px solid black; */
+    font-family: "Didot Italic";
+    font-size: 50px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #BC4C2A;
+}
+
+footer .f {
+    /* border: 1px solid black; */
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+footer .f ul {
+    font-family: "Avenir Light";
+    font-weight: bold;
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style-type: none;
+}
+
+footer .join {
+    /* border: 1px solid black; */
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .join .s6j {
+    /* border: 1px solid black; */
+    width: 50%;
+    height: 50%;
+}
+
+footer .join .s6j .p1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+footer .join .s6j .email {
+    border-bottom: 3px solid #BC4C2A;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+footer .join .s6j .email input {
+    border: none;
+    outline: none;
+}
+
+footer .join .s6j .email ::placeholder {
+    font-weight: bold;
+    color: black;
+}
+
+footer .join .s6j button {
+    border: 2px solid #BC4C2A;
+    width: 100%;
+    height: 50px;
+    color: #BC4C2A;
+    margin-top: 30px;
+}
+
+.last {
+    font-family: "Avenir Light";
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F6F3EF;
+}
+
+.lastbtn {
+    border: 1px solid #BC4C2A;
+    background-color: #BC4C2A;
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
+
+.lastbtn button {
+    border: none;
+    background-color: #BC4C2A;
+    font-size: 30px;
+    color: white;
+}

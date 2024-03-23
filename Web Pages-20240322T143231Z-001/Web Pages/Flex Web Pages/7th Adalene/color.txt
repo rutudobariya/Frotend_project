@@ -1,0 +1,6 @@
+Font color
+#BC4C2A
+
+background color
+#F6F3EF
+
