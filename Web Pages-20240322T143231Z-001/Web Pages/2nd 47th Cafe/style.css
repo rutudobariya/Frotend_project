@@ -1,0 +1,589 @@
+/* font-family: "Playfair Display", serif;
+font-family: "Lato", sans-serif; */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 100px;
+    background-color: antiquewhite;
+}
+
+header .logo {
+    /* border: 1px solid black; */
+    width: 14%;
+    height: 100px;
+    float: left;
+}
+
+header .logo img {
+    width: 100%;
+    height: 100%;
+}
+
+header .nav1 {
+    /* border: 1px solid black; */
+    width: 10%;
+    height: 100px;
+    float: right;
+}
+
+.nav1 ul li {
+    display: inline-block;
+    line-height: 100px;
+    margin-left: 10px;
+    font-family: "Lato", sans-serif;
+}
+
+.nav1 ul li:first-child {
+    font-size: 25px;
+    color: rgb(103, 117, 100);
+}
+
+header .nav2 {
+    /* border: 1px solid black; */
+    width: 50%;
+    height: 100px;
+    float: right;
+}
+
+.nav2 ul li {
+    display: inline-block;
+    line-height: 100px;
+    margin-left: 80px;
+    font-family: "Lato", sans-serif;
+}
+
+.section {
+    border: 1px solid rgb(103, 117, 100);
+    width: 100%;
+    height: 650px;
+    background-image: url(Image/First\ Bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    filter: brightness(80%);
+}
+
+.section .sec1p1 {
+    font-family: "Lato", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 170px;
+    margin-left: 70px;
+    color: white;
+}
+
+.section .sec1p2 {
+    font-family: "Playfair Display", serif;
+    font-size: 70px;
+    font-weight: 900;
+    margin-top: 15px;
+    margin-left: 70px;
+    color: white;
+}
+
+.section .btn1 {
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    width: 10%;
+    height: 50px;
+    margin-top: 40px;
+    margin-left: 70px;
+    background: none;
+    border: 1px solid white;   
+    color: white;
+}
+
+.section .btn2 {
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    width: 10%;
+    height: 50px;
+    background: none;   
+    border: 1px solid white;
+    color: white;
+    margin-left: 30px;
+}
+
+.sec2 {
+    /* border: 1px solid black; */
+    background-color: rgb(103, 117, 100);
+    width: 100%;
+    height: 80px;
+}
+
+.sec2 .fa-chevron-left {
+    float: left;
+    margin-left: 20px;
+    line-height: 80px;
+    color: white;
+}
+
+.sec2 .sec2p1 {
+    float: left;
+    margin-left: 500px;
+    line-height: 80px;
+    color: white;
+}
+
+.sec2 .sec2div {
+    border-left: 2px solid white;
+    height: 20px;
+    position: absolute;
+    left: 50%;
+    margin-top: 30px;
+}
+
+.sec2 .sec2p2 {
+    float: left;
+    margin-left: 60px;
+    line-height: 80px;
+    color: white;
+}
+
+.sec2 .fa-chevron-right {
+    float: right;
+    margin-right: 20px;
+    line-height: 80px;
+    color: white;
+}
+
+.sec3 {
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 590px;
+}
+
+.sec3 .sec3div1 {
+    /* border: 1px solid black; */
+    width: 40%;
+    height: 590px;
+    float: left;
+    margin-left: 10%;
+}
+
+.sec3 .sec3div2 {
+    /* border: 1px solid black; */
+    width: 50%;
+    height: 590px;
+    float: right;
+}
+
+.sec3div1 .sec3heading {
+    font-family: "Playfair Display", serif;
+    font-size: 70px;
+    font-weight: 700;
+    margin-top: 120px;
+}
+
+.sec3div1 .sec3p1 {
+    font-family: "Lato", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.sec3div1 .sec3p2 {
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    font-weight: 350;
+    margin-top: 35px;
+}
+
+.sec3div1 button {
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    width: 30%;
+    height: 50px;
+    background: none;   
+    border: 1px solid black;
+    color: black;
+    margin-top: 30px;
+}
+
+.sec3div2 img {
+    width: 100%;
+    height: 100%;
+}
+
+.sec4 {
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 590px;
+}
+
+.sec4 .sec4div1 {
+    /* border: 1px solid black; */
+    width: 50%;
+    height: 590px;
+    float: left;
+}
+
+.sec4 .sec4div2 {
+    /* border: 1px solid black; */
+    width: 40%;
+    height: 590px;
+    float: right;
+}
+
+.sec4div1 img {
+    width: 100%;
+    height: 100%;
+}
+
+.sec4div2 .sec4heading {
+    font-family: "Playfair Display", serif;
+    font-size: 70px;
+    font-weight: 700;
+    margin-top: 120px;
+}
+
+.sec4div2 .sec4p1 {
+    font-family: "Lato", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.sec4div2 .sec4p2 {
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    font-weight: 350;
+    margin-top: 35px;
+}
+
+.sec4div2 button {
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    width: 30%;
+    height: 50px;
+    background: none;   
+    border: 1px solid black;
+    color: black;
+    margin-top: 30px;
+}
+
+.sec5 {
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 590px;
+}
+
+.sec5 .sec5div1 {
+    /* border: 1px solid black; */
+    width: 40%;
+    height: 590px;
+    float: left;
+    margin-left: 10%;
+}
+
+.sec5 .sec5div2 {
+    /* border: 1px solid black; */
+    width: 50%;
+    height: 590px;
+    float: right;
+}
+
+.sec5div1 .sec5heading {
+    font-family: "Playfair Display", serif;
+    font-size: 70px;
+    font-weight: 700;
+    margin-top: 120px;
+}
+
+.sec5div1 .sec5p1 {
+    font-family: "Lato", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.sec5div1 .sec5p2 {
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    font-weight: 350;
+    margin-top: 35px;
+}
+
+.sec5div1 button {
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    width: 30%;
+    height: 50px;
+    background: none;   
+    border: 1px solid black;
+    color: black;
+    margin-top: 30px;
+}
+
+.sec5div2 img {
+    width: 100%;
+    height: 100%;
+}
+
+.sec6 {
+    border: 1px solid rgb(248, 238, 224);
+    background-color: rgb(248, 238, 224);
+    width: 100%;
+    height: 450px;
+}
+
+.sec6 .sec6heading {
+    font-family: "Playfair Display", serif;
+    font-size: 60px;
+    font-weight: 700;
+    margin-top: 70px;
+    text-align: center;
+}
+
+.sec6 .sec6div1 {
+    /* border: 1px solid black; */
+    width: 20%;
+    height: 250px;
+    float: left;
+    margin-left: 25%;
+}
+
+.sec6 .sec6div2 {
+    /* border: 1px solid black; */
+    width: 20%;
+    height: 250px;
+    float: right;
+    margin-right: 25%;
+}
+
+.sec6 .sec6div3 {
+    border-left: 2px solid black;
+    height: 150px;
+    position: absolute;
+    left: 50%;
+    margin-top: 60px;
+}
+
+.sec6div1 .sec6d1p1 {
+    font-family: "Playfair Display", serif;
+    font-size: 27px;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.sec6div1 .sec6d1p2 {
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.sec6div2 .sec6d2p1 {
+    font-family: "Playfair Display", serif;
+    font-size: 27px;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.sec6div2 .sec6d2p2 {
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.sec7 {
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 360px;
+}
+
+.sec7 .sec7d1 {
+    /* border: 1px solid black; */
+    width: 20%;
+    height: 360px;
+    float: left;
+}
+
+.sec7 .sec7d2 {
+    /* border: 1px solid black; */
+    width: 20%;
+    height: 360px;
+    float: left;
+}
+
+.sec7 .sec7d3 {
+    /* border: 1px solid black; */
+    width: 20%;
+    height: 360px;
+    float: left;
+}
+
+.sec7 .sec7d4 {
+    /* border: 1px solid black; */
+    width: 20%;
+    height: 360px;
+    float: left;
+}
+
+.sec7 .sec7d5 {
+    /* border: 1px solid black; */
+    width: 20%;
+    height: 360px;
+    float: left;
+}
+
+.sec7d1 img {
+    width: 100%;
+    height: 100%;
+}
+
+.sec7d2 img {
+    width: 100%;
+    height: 100%;
+}
+
+.sec7d3 img {
+    width: 100%;
+    height: 100%;
+}
+
+.sec7d4 img {
+    width: 100%;
+    height: 100%;
+}
+
+.sec7d5 img {
+    width: 100%;
+    height: 100%;
+}
+
+footer {
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 450px;
+    background-color: rgb(58, 71, 58);
+}
+
+footer .f1 {
+    /* border: 1px solid black; */
+    width: 30%;
+    height: 450px;
+    float: left;
+    margin-left: 5%;
+}
+
+footer .f2 {
+    /* border: 1px solid black; */
+    width: 25%;
+    height: 450px;
+    float: left;
+    margin-left: 5%;
+}
+
+footer .f3 {
+    /* border: 1px solid black; */
+    width: 25%;
+    height: 450px;
+    float: right;
+    margin-right: 5%;
+}
+
+.f1 .f1heading {
+    font-family: "Playfair Display", serif;
+    font-size: 27px;
+    font-weight: 500;
+    color: white;
+    margin-top: 100px;
+}
+
+.f1 .f1p1 {
+    font-family: "Lato", sans-serif;
+    color: white;
+    margin-top: 40px;
+    line-height: 30px;
+}
+
+.f1 .f1p2 {
+    font-family: "Lato", sans-serif;
+    color: white;
+    margin-top: 30px;
+}
+
+.f1 input {
+    border: 1px solid white;
+    outline: none;
+    width: 220px;
+    height: 40px;
+    background-color: rgb(58, 71, 58);
+    margin-top: 10px;
+}
+
+.f1 button {
+    border: 1px solid white;
+    color: white;
+    width: 100px;
+    height: 40px;
+    background-color: rgb(58, 71, 58);
+}
+
+.f2 .f2heading {
+    font-family: "Playfair Display", serif;
+    font-size: 27px;
+    font-weight: 500;
+    color: white;
+    margin-top: 100px;
+}
+
+.f2 .f2p1 {
+    font-family: "Lato", sans-serif;
+    color: white;
+    margin-top: 40px;
+    line-height: 30px;
+}
+
+.f2 .f2p2 {
+    font-family: "Lato", sans-serif;
+    color: white;
+    margin-top: 30px;
+}
+
+.f3 .f3h1 {
+    font-family: "Playfair Display", serif;
+    font-size: 50px;
+    color: white;
+    font-weight: 700;
+    margin-top: 90px;
+}
+
+.f3 .f3h2 {
+    font-family: "Playfair Display", serif;
+    font-size: 50px;
+    color: white;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.f3 .f3h3 {
+    font-family: "Playfair Display", serif;
+    font-size: 50px;
+    color: white;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.footer2 {
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 40px;
+    background-color: rgb(248, 238, 224);
+}
+
+.footer2 p {
+    font-family: "Lato", sans-serif;
+    text-align: center;
+    line-height: 40px;
+}
+

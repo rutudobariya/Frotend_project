@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Page 1</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            /* border: 1px solid black; */
+            width: 100%;
+            height: 100px;
+            background-color: lightgray;
+        }
+
+        header .logo {
+            /* border: 1px solid black; */
+            width: 20%;
+            height: 100px;
+            text-align: center;
+            float: left;
+            margin-left: 15%;
+        }
+
+        .logo .heading1 {
+            letter-spacing: 3px;
+            font-weight: 800;
+            font-family: 'Lulo Clean', sans-serif;
+            margin-top: 30px;
+        }
+
+        .logo .p1 {
+            font-size: 14px;
+            letter-spacing: 2px;
+            font-family: "Avenir Next LT W01SC Light Cond";
+        }
+
+        header nav {
+            /* border: 1px solid black; */
+            width: 50%;
+            float: right;
+            height: 100px;
+            margin-right: 10%;
+        }
+
+        nav .first {
+            /* border: 1px solid black; */
+            float: left;
+        }
+
+        nav .second {
+            /* border: 1px solid black; */
+            float: left;
+            margin-left: 20px;
+            color: #317F81;
+        }
+
+        nav .first ul li {
+            display: inline-block;
+            line-height: 100px;
+            margin-left: 20px;
+            font-family: "Avenir Next LT W01SC Light Cond";
+        }
+
+        nav .second ul li {
+            display: inline-block;
+            line-height: 100px;
+            margin-left: 5px;
+            font-family: "Avenir Next LT W01SC Light Cond";
+        }
+
+        section {
+            /* border: 1px solid black; */
+            width: 100%;
+            height: 650px;
+        }
+
+        section video {
+            height: 650px;
+            width: 100%;
+            object-fit: cover;
+            position: absolute;
+        }
+
+        section .p2 {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            text-align: center;
+            font-family: "Avenir Next LT W01SC Light Cond";
+            font-size: 17px;
+            font-weight: bold;
+            margin-top: 60px;
+            letter-spacing: 2px;
+       }
+
+        section .p3 {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            text-align: center;
+            font-family: 'Lulo Clean', sans-serif;
+            font-size: 120px;
+            font-weight: 900;
+            margin-top: 80px;
+            letter-spacing: 10px;
+        }
+
+        section .p4 {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            text-align: center;
+            font-family: "Avenir Next LT W01SC Light Cond";
+            font-size: 23px;
+            margin-top: 250px;
+            letter-spacing: 2px;
+        }
+
+        .btn1 {
+            width: 10%;
+            height: 40px;
+            position: absolute;
+            margin-left: 45%;
+            margin-top: 320px;
+            font-family: "Avenir Next LT W01SC Light Cond";
+            font-size: 15px;
+            background-color: black;
+            color: white;
+            border: none;
+        }
+
+        .section2 {
+            /* border: 1px solid black; */
+            width: 100%;
+            height: 550px;
+        }
+
+        .section2 .sec2first {
+            /* border: 1px solid black; */
+            width: 30%;
+            height: 550px;
+            float: left;
+            margin-left: 15%;
+        }
+
+        .sec2first .hr1 {
+            width: 40px;
+            height: 2px;
+            border: none;
+            background-color: black;
+            margin-top: 50px;
+        }
+
+        .sec2first .p5 {
+            font-family: 'Lulo Clean', sans-serif;
+            font-size: 40px;
+            font-weight: 800;
+            margin-top: 20px;
+            letter-spacing: 2px;
+        }
+
+        .sec2first .p6 {
+            font-family: "Avenir Next LT W01SC Light Cond";
+            font-size: 15px;
+            margin-top: 30px;
+            letter-spacing: 1px;
+        }
+
+        .sec2first .btn2 {
+            font-family: 'Lulo Clean', sans-serif;
+            font-size: 15px;
+            width: 120px;
+            height: 40px;
+            background-color: black;
+            color: white;
+            border: none;
+            margin-top: 40px;
+        }
+
+        .sec2first .btn3 {
+            font-family: 'Lulo Clean', sans-serif;
+            font-size: 15px;
+            width: 150px;
+            height: 40px;
+            background-color: white;
+            border: 2px solid black;
+            margin-left: 10px;
+        }
+
+        .section2 .sec2second {
+            /* border: 1px solid black; */
+            width: 50%;
+            height: 550px;
+            float: right;
+        }
+
+        .sec2second img {
+            width: 100%;
+            height: 100%;
+        }
+
+        .section3 {
+            background-image: url(Image/Third\ Image.webp);
+            background-position: center;
+            background-size: cover;
+            background-attachment: fixed;
+            border: 1px solid white;
+            /* border: none; */
+            width: 100%;
+            height: 850px;
+        }
+
+        .section3 .main {
+            /* border: 1px solid black; */
+            width: 70%;
+            height: 635px;
+            margin-left: 15%;
+            margin-top: 50px;
+        }
+
+        .main .hr2 {
+            width: 40px;
+            height: 2px;
+            border: none;
+            background-color: black;
+            margin-top: 50px;
+        }
+
+        .main .p7 {
+            font-family: 'Lulo Clean', sans-serif;
+            font-size: 40px;
+            font-weight: 800;
+            margin-top: 20px;
+            letter-spacing: 2px;
+        }
+
+        .main .main1 {
+            border: 7px solid black;
+            width: 30%;
+            height: 400px;
+            margin-top: 40px;
+            float: left;
+        }
+
+        .main .main2 {
+            border: 7px solid black;
+            width: 30%;
+            height: 400px;
+            margin-top: 40px;
+            float: left;
+            margin-left: 5%;
+        }
+
+        .main .main3 {
+            border: 7px solid black;
+            width: 30%;
+            height: 400px;
+            margin-top: 40px;
+            float: left;
+            margin-left: 5%;
+        }
+
+        .main1 .main1heading {
+            font-family: 'Lulo Clean', sans-serif;
+            font-size: 20px;
+            letter-spacing: 4px;
+            font-weight: 900;
+            text-align: center;
+            margin-top: 20px;
+        }
+        
+        .main1 .main1paragraph1 {
+            font-family: "Avenir Next LT W01SC Light Cond";
+            text-align: center;
+            font-size: 16px;
+            letter-spacing: 1px;
+            margin-top: 20px;
+        }
+
+        .main1 .hr3 {
+            width: 80%;
+            height: 2px;
+            border: none;
+            background-color: black;
+            margin-left: 10%;
+            margin-top: 30px;
+        }
+
+        .main1 .main1paragraph2 {
+            font-family: "Avenir Next LT W01SC Light Cond";
+            text-align: center;
+            font-size: 16px;
+            margin-top: 40px;
+        }
+
+        .main1 .btn4 {
+            font-family: 'Lulo Clean', sans-serif;
+            font-size: 15px;
+            width: 40%;
+            height: 40px;
+            background-color: black;
+            color: white;
+            border: none;
+            margin-top: 90px;
+            margin-left: 30%;
+        }
+
+        .main2 .main2heading {
+            font-family: 'Lulo Clean', sans-serif;
+            font-size: 20px;
+            letter-spacing: 4px;
+            font-weight: 900;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .main2 .main2paragraph1 {
+            font-family: "Avenir Next LT W01SC Light Cond";
+            text-align: center;
+            font-size: 16px;
+            letter-spacing: 1px;
+            margin-top: 20px;
+        }
+
+        .main2 .hr4 {
+            width: 80%;
+            height: 2px;
+            border: none;
+            background-color: black;
+            margin-left: 10%;
+            margin-top: 30px;
+        }
+
+        .main2 .main2paragraph2 {
+            font-family: "Avenir Next LT W01SC Light Cond";
+            text-align: center;
+            font-size: 16px;
+            margin-top: 40px;
+        }
+
+        .main2 .btn5 {
+            font-family: 'Lulo Clean', sans-serif;
+            font-size: 15px;
+            width: 40%;
+            height: 40px;
+            background-color: black;
+            color: white;
+            border: none;
+            margin-top: 72px;
+            margin-left: 30%;
+        }
+
+        .main3 .main3heading {
+            font-family: 'Lulo Clean', sans-serif;
+            font-size: 20px;
+            letter-spacing: 4px;
+            font-weight: 900;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .main3 .main3paragraph1 {
+            font-family: "Avenir Next LT W01SC Light Cond";
+            text-align: center;
+            font-size: 16px;
+            letter-spacing: 1px;
+            margin-top: 20px;
+        }
+
+        .main3 .hr5 {
+            width: 80%;
+            height: 2px;
+            border: none;
+            background-color: black;
+            margin-left: 10%;
+            margin-top: 30px;
+        }
+
+        .main3 .main3paragraph2 {
+            font-family: "Avenir Next LT W01SC Light Cond";
+            text-align: center;
+            font-size: 16px;
+            margin-top: 20px;
+        }
+
+        .main3 .btn6 {
+            font-family: 'Lulo Clean', sans-serif;
+            font-size: 15px;
+            width: 40%;
+            height: 40px;
+            background-color: black;
+            color: white;
+            border: none;
+            margin-top: 10px;
+            margin-left: 30%;
+        }
+
+        .section3 .btn7 {
+            font-family: 'Lulo Clean', sans-serif;
+            font-size: 15px;
+            width: 10%;
+            height: 40px;
+            background-color: black;
+            color: white;
+            border: none;
+            margin-left: 45%;
+            margin-top: 50px;
+        }
+
+        footer {
+            /* border: 1px solid black; */
+            background-color: #3c9da0;
+            width: 100%;
+            height: 650px;
+        }
+
+        footer .footer1 {
+            /* border: 1px solid black; */
+            width: 30%;
+            height: 650px;
+            float: left;
+            margin-left: 20%;
+        }
+
+        footer .footer2 {
+            /* border: 1px solid black; */
+            width: 30%;
+            height: 650px;
+            float: right;
+            margin-right: 20%;
+        }
+
+        .footer1 .hr6 {
+            width: 40px;
+            height: 2px;
+            border: none;
+            background-color: black;
+            margin-top: 50px;
+        }
+
+        .footer1 .footer1heading {
+            font-family: 'Lulo Clean', sans-serif;
+            font-size: 20px;
+            font-weight: 800;
+            margin-top: 20px;
+            letter-spacing: 2px;
+        }
+
+        .footer1 .footer1paragraph1 {
+            font-family: "Avenir Next LT W01SC Light Cond";
+            margin-top: 50px;
+        }
+
+        .footer1 .fa-facebook-f {
+            font-size: 20px;
+            margin-top: 25px;
+            margin-left: 10px;
+        }
+
+        .footer1 .fa-twitter {
+            font-size: 20px;
+            margin-top: 25px;
+            margin-left: 10px;
+        }
+
+        .footer1 .fa-instagram {
+            font-size: 20px;
+            margin-top: 25px;
+            margin-left: 10px;
+        }
+
+        .footer1 .fa-youtube {
+            font-size: 20px;
+            margin-top: 25px;
+            margin-left: 10px;
+        }
+
+        .footer1 .footer1paragraph2 {
+            font-family: 'Lulo Clean', sans-serif;
+            margin-top: 50px;
+        }
+
+        .footer2 .footer2p1 {
+            font-family: 'Lulo Clean', sans-serif;
+            font-size: 18PX;
+            margin-top: 75px;
+        }
+
+        .footer2 .input1 {
+            width: 100%;
+            height: 30px;
+            border: 2px solid black;
+            background-color: #3c9da0;
+        }
+
+        .footer2 .footer2p2 {
+            font-family: 'Lulo Clean', sans-serif;
+            font-size: 18PX;
+            margin-top: 20px;
+        }
+
+        .footer2 .input2 {
+            width: 100%;
+            height: 30px;
+            border: 2px solid black;
+            background-color: #3c9da0;
+        }
+
+        .footer2 .footer2p3 {
+            font-family: 'Lulo Clean', sans-serif;
+            font-size: 18PX;
+            margin-top: 20px;
+        }
+
+        .footer2 .input3 {
+            width: 100%;
+            height: 30px;
+            border: 2px solid black;
+            background-color: #3c9da0;
+        }
+
+        .footer2 .footer2p4 {
+            font-family: 'Lulo Clean', sans-serif;
+            font-size: 18PX;
+            margin-top: 20px;
+        }
+
+        .footer2 .input4 {
+            width: 100%;
+            height: 100px;
+            border: 2px solid black;
+            background-color: #3c9da0;
+        }
+
+        .footer2 .btn8 {
+            font-family: 'Lulo Clean', sans-serif;
+            font-size: 15px;
+            width: 40%;
+            height: 40px;
+            background-color: black;
+            color: white;
+            border: none;
+            margin-left: 45%;
+            margin-top: 20px;
+            margin-left: 60%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <p class="heading1">ALLAN JOHNSON</p>
+            <p class="p1">Personal Life Coach</p>
+        </div>
+
+        <nav>
+            <div class="first">
+                <ul>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Plans</li>
+                    <li>Blog</li>
+                    <li>Guides</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="second">
+                <ul>
+                    <li><i class="fa-solid fa-circle-user"></i></li>
+                    <li>Log In</li>
+                </ul>
+            </div>    
+        </nav>
+    </header>
+
+    <section>
+        <video src="Image/file.mp4" muted autoplay loop></video>
+
+        <p class="p2">AMBITION IS THE FIRST STEP TOWARDS</p>
+        <p class="p3">SUCCESS</p>
+        <p class="p4">Now Available for Online Coaching</p>
+
+        <button class="btn1">Book Now</button>
+    </section>
+
+    <section class="section2">
+        <div class="sec2first">
+            <hr class="hr1">
+
+            <p class="p5">ABOUT <br> ME</p>
+
+            <p class="p6">I'm a paragraph. Click here to add your own text and <br> edit me. It’s easy. Just click “Edit Text” or double <br> click me to add your own content and make changes <br> to the font. Feel free to drag and drop me anywhere you like on your page. <br><br><br>
+
+            This is a great space to write long text about your <br> company and your services. You can use this space to <br> go into a little more detail about your company. Talk <br> about your team and what services you provide.</p>
+
+            <button class="btn2">Read More</button>
+            <button class="btn3">Free Consultation</button>
+        </div>
+        <div class="sec2second">
+            <img src="Image/Second Image.webp" alt="">
+        </div>
+    </section>
+
+    <section class="section3">
+        <div class="main">
+            <hr class="hr2">
+
+            <p class="p7">HOW I CAN <br> HELP YOU</p>
+
+            <div class="main1">
+                <p class="main1heading">FREE <br> CONSULTATION</p>
+                <p class="main1paragraph1">Use this area to describe one of <br> your services.</p>
+                <hr class="hr3">
+                <p class="main1paragraph2">45 min</p>
+                <button class="btn4">Book It</button>
+            </div>
+
+            <div class="main2">
+                <p class="main2heading">ONLINE <br> COACHING</p>
+                <p class="main2paragraph1">Use this area to describe one of <br> your services.</p>
+                <hr class="hr4">
+                <p class="main2paragraph2">1 hr <br> $70</p>
+                <button class="btn5">Book It</button>
+            </div>
+
+            <div class="main3">
+                <p class="main3heading">SELF - <br> IMPROVEMENT <br> WORKSHOP</p>
+                <p class="main3paragraph1">Use this area to describe one of <br> your services.</p>
+                <hr class="hr5">
+                <p class="main3paragraph2"> Mon, Tue, Wed, Thu, Fri <br><br> 1 hr <br><br> $90</p>
+                <button class="btn6">Book It</button>
+            </div>
+        </div>
+
+        <button class="btn7">More services</button>
+    </section>
+
+    <footer>
+        <div class="footer1">
+            <hr class="hr6">
+
+            <p class="footer1heading">CONTACT</p>
+
+            <p class="footer1paragraph1">500 Terry Francine Street, <br> San Francisco, CA 94158 <br><br><br> Tel: 123-456-7890 <br> Fax: 123-456-7890 <br><br><br> info@mysite.com</p>
+
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-youtube"></i>
+
+            <p class="footer1paragraph2">© 2035 by Personal Life Coach. <br> Powered and secured by <u>Wix</u></p>
+        </div>
+        <div class="footer2">
+            <p class="footer2p1">Enter Your Name</p><br>
+            <input class="input1" type="text"><br>
+
+            <p class="footer2p2">Enter Your Email *</p><br>
+            <input class="input2" type="email"><br>
+
+            <p class="footer2p3">Enter Your Subject</p><br>
+            <input class="input3" type="text"><br>
+
+            <p class="footer2p4">Message</p><br>
+            <textarea class="input4" name="" id="" cols="30" rows="10"></textarea><br>
+
+            <button class="btn8">Submit</button>
+        </div>
+    </footer>
+</body>
+</html>
