@@ -1,0 +1,6 @@
+white - #F5F5F5
+
+light brown - #BE8E66
+dark brown - #7F5F44
+
+font color - #021A4A

@@ -1,0 +1,1517 @@
+/* font-family: "Roboto";
+font-family: "Heebo"; */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.sec1 {
+    /* border: 1px solid black; */
+    background-color: #2124B1;    
+    width: 100%;
+    height: 800px;
+    position: relative;
+}
+
+.sec1 .bottombg {
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    bottom: 0;
+}
+
+.sec1 .bgdottop {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.sec1 .bgdotbottom {
+    position: absolute;
+    top: 350px;
+    right: 20px;
+}
+
+.sec1 .bground {
+    position: absolute;
+    top: 0;
+    left: 45%;
+}
+
+.sec1 .bgtree {
+    position: absolute;
+    bottom: 0;
+    left: 35%;
+}
+
+.sec1 header {
+    border-bottom: 1px solid #4777F5;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sec1 header .logo {
+    /* border: 1px solid black; */
+    width: 15%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sec1 header .logo .logoin {
+    /* border: 1px solid black; */
+    width: 70%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.sec1 header .logo .fa-magnifying-glass {
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+
+.sec1 header .logo .s1 {
+    font-family: "Roboto";
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+
+.sec1 header .logo .s2 {
+    font-family: "Roboto";
+    font-weight: bold;
+    color: white;
+}
+
+.sec1 header nav {
+    /* border: 1px solid red; */
+    width: 55%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-right: 100px;
+}
+
+.sec1 header nav ul {
+    /* border: 1px solid black; */
+    width: 90%;
+    height: 100%;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.sec1 header nav ul li {
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 100%;
+    font-family: "Roboto";
+    font-weight: bold;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+}
+
+.sec1 header nav ul li::before {
+    content: "";
+    background-color: #4777F5   ;
+    width: 27%;
+    height: 30px;
+    border-radius: 15px;
+    position: absolute;
+    left: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+
+.sec1 header nav ul li:hover::before {
+    transform: rotate(90deg);
+    border-radius: 60%;
+    height: 115px;
+    width: 100%;
+}
+
+.sec1 header nav .fa-magnifying-glass {
+    font-size: 20px;
+    color: #4777F5;
+    /* border: 1px solid red; */
+    padding: 0 30px 0 30px;
+    transition: 0.5s;
+}
+
+.sec1 header nav .fa-magnifying-glass:hover {
+    color: white;
+}
+
+.sec1 header nav button {
+    border: 1px solid #4777F5;
+    width: 20%;
+    height: 40px;
+    background-color: #4777F5;
+    color: white;
+    font-weight: bold;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+.sec1 header nav button:hover {
+    border: 3px solid #4777F5;
+    background-color: #2124B1;
+}
+
+.sec1 .sec1main {
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 600px;
+    display: flex;
+}
+
+.sec1 .sec1main .s1a {
+    /* border: 1px solid black; */
+    width: 50%;
+    height: 100%;
+}
+
+.sec1 .sec1main .s1a .p1 {
+    font-family: "Roboto";
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.sec1 .sec1main .s1a .p2 {
+    font-family: "Heebo";
+    font-weight: bold;
+    color: white;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+
+.sec1 .sec1main .s1a .btn1 {
+    font-family: "Heebo";
+    font-size: 17px;
+    font-weight: bold;
+    border: 1px solid white;
+    border-radius: 30px;
+    width: 20%;
+    height: 60px;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+.sec1 .sec1main .s1a .btn2 {
+    font-family: "Heebo";
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+    border: 1px solid white;
+    background-color: #2124B1;
+    border-radius: 30px;
+    width: 20%;
+    height: 60px;
+    margin-left: 30px;
+}
+
+.sec1 .sec1main .s1b {
+    /* border: 1px solid black; */
+    width: 50%;
+    height: 100%;
+    position: relative;
+}
+
+.sec1 .sec1main .s1b img {
+    position: absolute;
+    top: 100px;
+    left: 50px;
+}
+
+.sec2 {
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.sec2 .s2a {
+    /* border: 1px solid black; */
+    width: 40%;
+    height: 100%;
+}
+
+.sec2 .s2a .before {
+    /* border: 1px solid black; */
+    width: 20%;
+    height: 50px;
+    margin-top: 100px;
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.sec2 .s2a .before .p1 {
+    font-family: "Roboto";
+    font-weight: bold;
+    color: #2124B1;
+}
+
+.sec2 .s2a .before .p1::before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    background-color: rgba(33, 66, 177, .5);
+    position: absolute;
+    top: 18px;
+    left: 20px;
+}
+
+.sec2 .s2a .before .p1::after {
+    content: "";
+    width: 10px;
+    height: 10px;
+    background-color: rgba(33, 66, 177, .5);
+    position: absolute;
+    top: 21px;
+    left: 23px;    
+}
+
+.sec2 .s2a .p2 {
+    font-family: "Roboto";
+    font-size: 32px;
+    margin-left: 50px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.sec2 .s2a hr {
+    width: 7%;
+    height: 5px;
+    border: none;
+    background-color: black;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.sec2 .s2a .p3 {
+    font-family: "Heebo";
+    margin-top: 20px;
+    margin-left: 50px;    
+}
+
+.sec2 .s2a .s2bullet {
+    /* border: 1px solid black; */
+    width: 60%;
+    height: 100px;
+    margin-top: 20px;
+    margin-left: 50px;
+    display: flex;
+}
+
+.sec2 .s2a .s2bullet .s2blts {
+    /* border: 1px solid black; */
+    width: 50%;
+    height: 100%;
+}
+
+.sec2 .s2a .s2bullet .s2blts ul {
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.sec2 .s2a .s2bullet .s2blts ul li {
+    font-family: "Roboto";
+    font-weight: bold;
+    color: #2124B1;
+    list-style-type: none;
+}
+
+.sec2 .s2a .s2main {
+    /* border: 1px solid black; */
+    width: 60%;
+    height: 100px;
+    margin-top: 20px;
+    margin-left: 50px;
+    display: flex;
+}
+
+.sec2 .s2a .s2main .s2btn {
+    /* border: 1px solid black; */
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec2 .s2a .s2main .s2btn button {
+    border: 1px solid #2124B1;
+    width: 80%;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #2124B1;
+    font-family: "Roboto";
+    font-size: 17px;
+    color: white;
+    transition: 0.5s;
+}
+
+.sec2 .s2a .s2main .s2btn button:hover {
+    background-color: #4777F5;
+    border: 1px solid #2124B1;
+    color: #2124B1;
+    font-weight: bold;
+}
+
+.sec2 .s2a .s2main .s2icon {
+    /* border: 1px solid black; */
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.sec2 .s2a .s2main .s2icon .icon {
+    border: 1px solid #2124B1;
+    width: 18%;
+    height: 50px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: #2124B1;
+    transition: 0.5s;
+}
+
+.sec2 .s2a .s2main .s2icon .icon:hover {
+    background-color: #2124B1;
+    color: white;
+}
+
+.sec2 .s2b {
+    /* border: 1px solid black; */
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec2 .s2b .img {
+    /* border: 1px solid black; */
+    width: 80%;
+    height: 430px;
+}
+
+.sec2 .s2b .img img {
+    width: 100%;
+    height: 100%;
+}
+
+.sec3 {
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 400px;
+    position: relative;
+}
+
+.sec3 .s3a {
+    border: 1px solid #2124B1;
+    width: 100%;
+    height: 250px;
+    background-color: #2124B1;
+    position: relative;
+}
+
+.sec3 .s3a .bgtop {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.sec3 .s3a .bgbottom {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.sec3 .s3a .p1 {
+    font-family: "Roboto";
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    margin-top: 50px;
+    margin-left: 150px;
+}
+
+.sec3 .s3a .p2 {
+    font-family: "Heebo";
+    color: white;
+    margin-top: 10px;
+    margin-left: 150px;
+}
+
+.sec3 .s3a .input {
+    border: 1px solid white;
+    width: 30%;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 150px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 10px;
+    background-color: white;
+}
+
+.sec3 .s3a .input:hover {
+    border: 4px solid #4777F5;
+}
+
+.sec3 .s3a .input input {
+    width: 80%;
+    border: none;
+    outline: none;
+    background-color: white;
+}
+
+.sec3 .s3a .input input::placeholder {
+    font-size: 17px;
+}
+
+.sec3 .s3a .input .fa-telegram {
+    font-size: 40px;
+    color: #2124B1;
+}
+
+.sec3 .s3b {
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 150px;
+}
+
+.sec3 img {
+    position: absolute;
+    top: 50px;
+    right: 400px;
+}
+
+.sec4 {
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.sec4 .s4a {
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.sec4 .before {
+    /* border: 1px solid black; */
+    width: 10%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.sec4 .before .p1 {
+    font-family: "Roboto";
+    font-weight: bold;
+    color: #2124B1;
+}
+
+.sec4 .before .p1::before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    background-color: rgba(33, 66, 177, .5);
+    position: absolute;
+    top: 18px;
+    left: 20px;
+}
+
+.sec4 .before .p1::after {
+    content: "";
+    width: 10px;
+    height: 10px;
+    background-color: rgba(33, 66, 177, .5);
+    position: absolute;
+    top: 21px;
+    left: 23px;    
+}
+
+.sec4 .s4a .p2 {
+    font-family: "Roboto";
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.sec4 .s4a hr {
+    width: 3%;
+    height: 5px;
+    border: none;
+    background-color: black;
+}
+
+
+.sec4 .s4b {
+    /* border: 1px solid black; */
+    width: 80%;
+    height: 900px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.sec4 .s4b .s4bcontent {
+    /* border: 1px solid black; */
+    border-radius: 30px;
+    width: 27%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #2124B1;
+    transition: 0.5s;
+}
+
+.sec4 .s4b .s4bcontent:hover {
+    transform: scale(1.1);
+    box-shadow: 10px 10px 10px #4777F5;
+}
+
+.sec4 .s4b .s4bcontent .img {
+    /* border: 1px solid black; */
+    width: 23%;
+    height: 95px;
+    position: relative;
+}
+
+.sec4 .s4b .s4bcontent .img img {
+    width: 100%;
+    height: 100%;
+}
+
+.sec4 .s4b .s4bcontent .img .fa-house-chimney {
+    font-size: 30px;
+    color: #2124B1;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+
+.sec4 .s4b .s4bcontent .p1 {
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.sec4 .s4b .s4bcontent .p2 {
+    font-family: "Heebo";
+    font-weight: bold;
+    color: white;
+}
+
+.sec4 .s4b .s4bcontent button {
+    font-family: "Heebo";
+    font-weight: bold;
+    font-size: 17px;
+    border: none;
+    background-color: #2124B1;
+    width: 30%;
+    height: 40px;
+    font-weight: bold;
+    color: #4777F5;
+    border-radius: 20px;
+    transition: 0.5s;
+    position: relative;
+    z-index: 1;
+}
+
+.sec4 .s4b .s4bcontent button::before {
+    content: "";
+    background-color: white;
+    width: 33%;
+    height: 40px;
+    border-radius: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: 0.5s    ;
+}
+
+.sec4 .s4b .s4bcontent button:hover::before {
+    width: 100%;
+}
+
+.sec5 {
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 1400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.sec5 .s5a {
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.sec5 .before {
+    /* border: 1px solid black; */
+    width: 10%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.sec5 .before .p1 {
+    font-family: "Roboto";
+    font-weight: bold;
+    color: #2124B1;
+}
+
+.sec5 .before .p1::before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    background-color: rgba(33, 66, 177, .5);
+    position: absolute;
+    top: 18px;
+    left: 20px;
+}
+
+.sec5 .before .p1::after {
+    content: "";
+    width: 10px;
+    height: 10px;
+    background-color: rgba(33, 66, 177, .5);
+    position: absolute;
+    top: 21px;
+    left: 23px;    
+}
+
+.sec5 .s5a .p2 {
+    font-family: "Roboto";
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.sec5 .s5a hr {
+    width: 3%;
+    height: 5px;
+    border: none;
+    background-color: black;
+}
+
+.sec5 .s5a .option {
+    /* border: 1px solid black; */
+    width: 20%;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.sec5 .s5a .option .opt {
+    border: 4px solid #2124B1;
+    width: 30%;
+    height: 100%;
+    background-color: #2124B1;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+
+.sec5 .s5a .option .opt:hover {
+    border: 4px solid #2124B1;
+    color: #2124B1;
+    background-color: #4777F5;
+}
+
+.sec5 .s5a .option .opt p {
+    font-family: "Heebo";
+    font-weight: bold;
+    color: white;
+}
+
+.sec5 .s5b {
+    /* border: 1px solid black; */
+    width: 80%;
+    height: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.sec5 .s5b .img {
+    /* border: 1px solid black; */
+    border-radius: 20px;
+    width: 28%;
+    height: 450px;
+}
+
+.sec5 .s5b .img img {
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+}
+
+.sec6 {
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 400px;
+    background-color: #2124B1;
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.sec6 .bgtop {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.sec6 .bgbottom {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.sec6 .s6content {
+    border: 2px solid white;
+    width: 25%;
+    height: 70%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;    
+}
+
+.sec6 .s6content .fa-quote-left {
+    color: white;
+    font-size: 30px;
+}
+
+.sec6 .s6content p {
+    font-family: "Heebo";
+    font-weight: bold;
+    color: white;
+}
+
+.sec6 .s6content .s6img {
+    /* border: 1px solid black; */
+    width: 70%;
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.sec6 .s6content .s6img .img {
+    /* border: 1px solid red; */
+    border-radius: 45px;
+    width: 25%;
+    height: 80px;
+    overflow: hidden;
+}
+
+.sec6 .s6content .s6img .img img {
+    width: 100%;
+    height: 100%;
+}
+
+.sec6 .s6content .s6img .s6text {
+    /* border: 1px solid black; */
+    width: 50%;
+    height: 50px;
+}
+
+.sec6 .s6content .s6img .p1 {
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+}
+
+.sec6 .s6content .s6img .p2 {
+    font-family: "Heebo";
+    color: white;
+    font-weight: bold;
+}
+
+.sec7 {
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 950px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.sec7 .s7a {
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.sec7 .before {
+    /* border: 1px solid black; */
+    width: 10%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.sec7 .before .p1 {
+    font-family: "Roboto";
+    font-weight: bold;
+    color: #2124B1;
+}
+
+.sec7 .before .p1::before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    background-color: rgba(33, 66, 177, .5);
+    position: absolute;
+    top: 18px;
+    left: 20px;
+}
+
+.sec7 .before .p1::after {
+    content: "";
+    width: 10px;
+    height: 10px;
+    background-color: rgba(33, 66, 177, .5);
+    position: absolute;
+    top: 21px;
+    left: 23px;    
+}
+
+.sec7 .s7a .p2 {
+    font-family: "Roboto";
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.sec7 .s7a hr {
+    width: 3%;
+    height: 5px;
+    border: none;
+    background-color: black;
+}
+
+
+.sec7 .s7b {
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 680px;
+    position: relative;
+}
+
+.sec7 .s7b .bg71 {
+    /* border: 1px solid black; */
+    width: 20%;
+    height: 500px;
+    position: absolute;
+    top: 100px;
+    left: 10%;
+    background-color: #2124B1;
+    border-radius: 20px;
+    box-shadow: 30px 30px 30px #4777F5
+}
+
+.sec7 .s7b .bg72 {
+    /* border: 1px solid black; */
+    width: 20%;
+    height: 500px;
+    position: absolute;
+    top: 100px;
+    left: 40%;
+    background-color: #2124B1;
+    border-radius: 20px;
+    box-shadow: 30px 30px 30px #4777F5
+}
+
+.sec7 .s7b .bg73 {
+    /* border: 1px solid black; */
+    width: 20%;
+    height: 500px;
+    position: absolute;
+    top: 100px;
+    left: 70%;
+    background-color: #2124B1;
+    border-radius: 20px;
+    box-shadow: 30px 30px 30px #4777F5
+}
+
+.sec7 .s7b .bg71 .icon {
+    /* border: 1px solid black; */
+    width: 15%;
+    height: 200px;   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+}
+
+.sec7 .s7b .bg71 .icon .i {
+    border: 2px solid white;
+    width: 70%;
+    height: 40px;
+    border-radius: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+
+.sec7 .s7b .bg71 .icon .i:hover {
+    border: 1px solid #4777F5;
+    background-color: #4777F5;
+    color: #2124B1;
+}
+
+.sec7 .s7b .bg71 .p1 {
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    bottom: 50px;
+    left: 20px;
+}
+
+.sec7 .s7b .bg71 .p2 {
+    font-family: "Heebo";
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+
+.sec7 .s7b .bg72 .icon {
+    /* border: 1px solid black; */
+    width: 15%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+
+}
+
+.sec7 .s7b .bg72 .icon .i {
+    border: 2px solid white;
+    width: 70%;
+    height: 40px;
+    border-radius: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+
+.sec7 .s7b .bg72 .icon .i:hover {
+    border: 1px solid #4777F5;
+    background-color: #4777F5;
+    color: #2124B1;
+}
+
+.sec7 .s7b .bg72 .p1 {
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    bottom: 50px;
+    left: 20px;
+}
+
+.sec7 .s7b .bg72 .p2 {
+    font-family: "Heebo";
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+
+
+.sec7 .s7b .bg73 .icon {
+    /* border: 1px solid black; */
+    width: 15%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+
+}
+
+.sec7 .s7b .bg73 .icon .i {
+    border: 2px solid white;
+    width: 70%;
+    height: 40px;
+    border-radius: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+
+.sec7 .s7b .bg73 .icon .i:hover {
+    border: 1px solid #4777F5;
+    background-color: #4777F5;
+    color: #2124B1;
+}
+
+.sec7 .s7b .bg73 .p1 {
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    bottom: 50px;
+    left: 20px;
+}
+
+.sec7 .s7b .bg73 .p2 {
+    font-family: "Heebo";
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+
+.sec7 .s7b .s7img1 {
+    /* border: 1px solid #2124B1; */
+    width: 19%;
+    height: 480px;
+    position: absolute;
+    top: 20px;
+    left: 13.5%;
+}
+
+.sec7 .s7b .s7img2 {
+    /* border: 1px solid #2124B1; */
+    width: 19%;
+    height: 480px;
+    position: absolute;
+    top: 20px;
+    left: 43.5%;
+}
+
+.sec7 .s7b .s7img3 {
+    /* border: 1px solid #2124B1; */
+    width: 19%;
+    height: 480px;
+    position: absolute;
+    top: 20px;
+    left: 73.5%;
+}
+
+.sec7 .s7b .s7img1 img {
+    width: 100%;
+    height: 100%;
+}
+
+.sec7 .s7b .s7img2 img {
+    width: 100%;
+    height: 100%;
+}
+
+.sec7 .s7b .s7img3 img {
+    width: 100%;
+    height: 100%;
+}
+
+footer {
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 600px;
+    display: flex;
+    background-color: #2124B1;
+    position: relative;
+}
+
+footer img {
+    /* border: 1px solid black; */
+    height: 600px;
+    position: absolute;
+    left: 10%;
+    top: 0;
+}
+
+footer .f1 {
+    /* border: 1px solid black; */
+    width: 25%;
+    height: 100%;
+}
+
+footer .f1 .p1 {
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    margin-top: 150px;
+    margin-left: 50px;
+}
+
+footer .f1 .fa-location-dot {
+    color: white;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+footer .f1 .fa-phone {
+    color: white;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+footer .f1 .fa-envelope {
+    color: white;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+footer .f1 span {
+    font-family: "Heebo";
+    color: white;
+    margin-left: 20px;
+}
+
+footer .f1 .icon {
+    /* border: 1px solid black; */
+    width: 60%;
+    height: 50px;
+    margin-top: 30px;
+    margin-left: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    z-index: 1;
+}
+
+footer .f1 .icon .i {
+    border: 1px solid #4777F5;
+    width: 17%;
+    height: 100%;
+    border-radius: 25px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    transition: 0.5s;
+}
+
+footer .f1 .icon .i:hover {
+    background-color: #4777F5;
+    color: #2124B1;
+}
+
+footer .f2 {
+    /* border: 1px solid black; */
+    width: 25%;
+    height: 100%;
+}
+
+footer .f2 p {
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    margin-top: 150px;
+    margin-left: 50px;
+}
+
+footer .f2 .f2content {
+    /* border: 1px solid black; */
+    width: 40%;
+    height: 200px;
+    margin-left: 70px;
+    margin-top: 30px;
+}
+
+footer .f2 .f2content ul {
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+footer .f2 ul li {
+    font-family: "Heebo";
+    list-style-type: circle;
+    color: white;
+}
+
+footer .f3 {
+    /* border: 1px solid black; */
+    width: 25%;
+    height: 100%;
+}
+
+footer .f3 p {
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    margin-top: 150px;
+    margin-left: 15px;
+}
+
+footer .f3 .f3img {
+    /* border: 1px solid black; */
+    width: 95%;
+    height: 290px;
+    margin-top: 30px;
+    position: relative;
+}
+
+footer .f3 .f3img .img1 {
+    /* border: 1px solid black; */
+    width: 30%;
+    height: 130px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+footer .f3 .f3img .img1 img {
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+}
+
+footer .f3 .f3img .img1 img:hover {
+    transform: scale(1.1);
+    box-shadow: 10px 10px 10px;
+}
+
+footer .f3 .f3img .img2 {
+    /* border: 1px solid black; */
+    width: 30%;
+    height: 130px;
+    position: absolute;
+    top: 0;
+    left: 35%;
+}
+
+footer .f3 .f3img .img2 img {
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+}
+
+footer .f3 .f3img .img2 img:hover {
+    transform: scale(1.1);
+    box-shadow: 10px 10px 10px;
+}
+
+footer .f3 .f3img .img3 {
+    /* border: 1px solid black; */
+    width: 30%;
+    height: 130px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+footer .f3 .f3img .img3 img {
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+}
+
+footer .f3 .f3img .img3 img:hover {
+    transform: scale(1.1);
+    box-shadow: 10px 10px 10px;
+}
+
+footer .f3 .f3img .img4 {
+    /* border: 1px solid black; */
+    width: 30%;
+    height: 130px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+footer .f3 .f3img .img4 img {
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+}
+
+footer .f3 .f3img .img4 img:hover {
+    transform: scale(1.1);
+    box-shadow: 10px 10px 10px;
+}
+
+footer .f3 .f3img .img5 {
+    /* border: 1px solid black; */
+    width: 30%;
+    height: 130px;
+    position: absolute;
+    bottom: 0;
+    left: 35%;
+}
+
+footer .f3 .f3img .img5 img {
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+}
+
+footer .f3 .f3img .img5 img:hover {
+    transform: scale(1.1);
+    box-shadow: 10px 10px 10px;
+}
+
+footer .f3 .f3img .img6 {
+    /* border: 1px solid black; */
+    width: 30%;
+    height: 130px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+footer .f3 .f3img .img6 img {
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+}
+
+footer .f3 .f3img .img6 img:hover {
+    transform: scale(1.1);
+    box-shadow: 10px 10px 10px;
+}
+
+footer .f4 {
+    /* border: 1px solid black; */
+    width: 25%;
+    height: 100%;
+}
+
+footer .f4 .p1 {
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    margin-top: 150px;
+    margin-left: 50px;
+}
+
+footer .f4 .p2 {
+    font-family: "Heebo";
+    color: white;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+footer .f4 .input {
+    border: 1px solid white;
+    width: 70%;
+    height: 50px;
+    margin-top: 30px;
+    margin-left: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 25px;
+    padding-left: 30px;
+    padding-right: 10px;
+    background-color: white;
+}
+
+footer .f4 .input:hover {
+    border: 3px solid #4777F5;
+}
+
+footer .f4 .input input {
+    border: none;
+    outline: none;
+}
+
+footer .f4 .input .fa-telegram {
+    color: #2124B1;
+    font-size: 35px;
+}

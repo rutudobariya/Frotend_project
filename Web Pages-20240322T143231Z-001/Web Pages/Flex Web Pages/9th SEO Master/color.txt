@@ -1,0 +1,5 @@
+Dark BG
+#2124B1
+
+Light bg
+#4777F5

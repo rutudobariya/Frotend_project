@@ -1,0 +1,877 @@
+/* font-family: "Caudex";
+font-family: "Lato Light"; */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sec1 {
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 1100px;
+    display: flex;
+    position: relative;
+}
+
+.sec1 .s1a {
+    /* border: 1px solid black; */
+    width: 65%;
+    height: 100%;
+    background-color: #F5F5F5;
+}
+
+.sec1 .s1a header {
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sec1 .s1a header nav {
+    /* border: 1px solid black; */
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.sec1 .s1a header nav .cart {
+    /* border: 1px solid black; */
+    width: 40%;
+    height: 100%;
+    display: flex;
+    /* justify-content: flex-end; */
+}
+
+.sec1 .s1a header nav .cart ul {
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.sec1 .s1a header nav .cart ul li {
+    list-style-type: none;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    color: #021A4A;
+}
+
+.sec1 .s1a header nav .login {
+    /* border: 1px solid black; */
+    width: 50%;
+    height: 100%;
+}
+
+.sec1 .s1a header nav .login ul {
+    /* border: 1px solid red; */
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec1 .s1a header nav .login ul li {
+    font-family: "Lato Light";
+    font-weight: bold;
+    list-style-type: none;
+    color: #021A4A;
+}
+
+.sec1 .s1a header .logo {
+    /* border: 1px solid black; */
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.sec1 .s1a header .logo .p1 {
+    font-family: "Caudex";
+    font-size: 30px;
+    letter-spacing: 5px;
+    color: #021A4A;
+}
+
+.sec1 .s1a header .logo .p2 {
+    font-family: "Lato Light";
+    letter-spacing: 2px;
+}
+
+.sec1 .s1a .sa1text {
+    /* border: 1px solid black; */
+    float: right;
+    margin-top: 650px;
+    width: 65%;
+    height: 300px;
+}
+
+.sec1 .s1a .sa1text .s1head {
+    font-size: 50px;
+    color: #021A4A;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+.sec1 .s1a .sa1text .p2text {
+    font-size: 20px;
+    color: #021A4A;
+    margin-top: 50px;
+    margin-left: 25px;
+    text-decoration: underline;
+}
+
+.sec1 .s2b {
+    /* border: 1px solid black; */
+    width: 35%;
+    height: 100%;
+    background-color: #BE8E66;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.sec1 .s2b .icon {
+    /* border: 1px solid black; */
+    width: 40%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec1 .s2b .icon ul {
+    /* border: 1px solid red; */
+    width: 70%;
+    height: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.sec1 .s2b .icon ul li {
+    list-style-type: none;
+    font-size: 20px;
+}
+
+.s1img1 {
+    /* border: 1px solid black; */
+    width: 55%;
+    height: 550px;
+    position: absolute;
+    top: 200px;
+    left: 400px;
+}
+
+.s1img1 img {
+    width: 100%;
+    height: 100%;
+}
+
+.s1img2 {
+    /* border: 1px solid black; */
+    width: 15%;
+    height: 410px;
+    position: absolute;
+    top: 510px;
+    right: 560px;
+}
+
+.s1img2 img {
+    width: 100%;
+    height: 100%;
+}
+
+.sec2 {
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 750px;
+}
+
+.sec2 .s2main1 {
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: end;
+}
+.sec2 .s2main1 .s2a {
+    /* border: 1px solid black; */
+    width: 41%;
+    height: 520px;
+    overflow: hidden;
+}
+
+.sec2 .s2main1 .s2a img {
+    width: 100%;
+    height: 100%;
+    transition: 1s;
+}
+
+.sec2 .s2main1 .s2a img:hover {
+    transform: scale(1.2);
+}
+
+.sec2 .s2main1 .s2b {
+    /* border: 1px solid black; */
+    width: 41%;
+    height: 520px;
+    overflow: hidden;
+}
+
+.sec2 .s2main1 .s2b img {
+    width: 100%;
+    height: 100%;
+    transition: 1s;
+}
+
+.sec2 .s2main1 .s2b img:hover {
+    transform: scale(1.2);
+}
+
+.sec2 .s2main2 {
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 110px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.sec2 .s2main2 .s2text1 {
+    /* border: 1px solid black; */
+    width: 41%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.sec2 .s2main2 .s2text1 .p1 {
+    font-family: "Caudex";
+    color: #021A4A;
+    font-size: 40px;
+}
+
+.sec2 .s2main2 .s2text1 .p2 {
+    font-family: "Lato Light";
+    color: #BE8E66;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.sec2 .s2main2 .s2text2 {
+    /* border: 1px solid black; */
+    width: 41%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.sec2 .s2main2 .s2text2 .p1 {
+    font-family: "Caudex";
+    color: #021A4A;
+    font-size: 40px;
+}
+
+.sec2 .s2main2 .s2text2 .p2 {
+    font-family: "Lato Light";
+    color: #BE8E66;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.sec3 {
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 600px;
+    background-color: #F5F5F5;
+}
+
+.sec3 .s3main1 {
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec3 .s3main1 p {
+    font-family: "Caudex";
+    font-size: 40px;
+    font-weight: bold;
+    color: #021A4A;
+}
+
+.sec3 .s3main2 {
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sec3 .s3main2 .s3m21 {
+    /* border: 1px solid black; */
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.sec3 .s3main2 .s3m21 .s3sale1 {
+    /* border: 1px solid black; */
+    background-color: #7F5F44;
+    width: 15%;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 25px;
+    left: 23px;
+}
+
+.sec3 .s3main2 .s3m21 .s3sale1 p {
+    font-family: "Lato Light";
+    color: white;
+}
+
+/* .sec3 .s3main2 .s3m21 .img1 {
+    border: 1px solid red;
+} */
+
+.s3m21:hover .img1 {
+    display: none;
+}
+
+.sec3 .s3main2 .s3m21 .img2 {
+    /* border: 1px solid red; */
+    display: none;
+}
+
+.sec3 .s3main2 .s3m21:hover .img2 {
+    display: block;
+}
+
+.sec3 .s3main2 .s3m22 {
+    /* border: 1px solid black; */
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.sec3 .s3main2 .s3m22 .s3sale2 {
+    /* border: 1px solid black; */
+    background-color: #7F5F44;
+    width: 15%;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 25px;
+    left: 23px;
+}
+
+.sec3 .s3main2 .s3m22 .s3sale2 p {
+    font-family: "Lato Light";
+    color: white;
+}
+
+
+/* .sec3 .s3main2 .s3m22 .img1 {
+    border: 1px solid red;
+} */
+
+.sec3 .s3main2 .s3m22:hover .img1 {
+    display: none;
+}
+
+.sec3 .s3main2 .s3m22 .img2 {
+    /* border: 1px solid red; */
+    display: none;
+}
+
+.sec3 .s3main2 .s3m22:hover .img2 {
+    display: block;
+}
+
+
+.sec3 .s3main2 .s3m23 {
+    /* border: 1px solid black; */
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .sec3 .s3main2 .s3m23 .img1 {
+    border: 1px solid red;
+} */
+
+.sec3 .s3main2 .s3m23:hover .img1 {
+    display: none;
+}
+
+.sec3 .s3main2 .s3m23 .img2 {
+    /* border: 1px solid red; */
+    display: none;
+}
+
+.sec3 .s3main2 .s3m23:hover .img2 {
+    display: block;
+}
+
+.sec3 .s3main2 .s3m24 {
+    /* border: 1px solid black; */
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.sec3 .s3main2 .s3m24 .s3sale4 {
+    /* border: 1px solid black; */
+    background-color: #7F5F44;
+    width: 15%;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 25px;
+    left: 23px;
+}
+
+.sec3 .s3main2 .s3m24 .s3sale4 p {
+    font-family: "Lato Light";
+    color: white;
+}
+
+
+/* .sec3 .s3main2 .s3m24 .img1 {
+    border: 1px solid red;
+} */
+
+.sec3 .s3main2 .s3m24:hover .img1 {
+    display: none;
+}
+
+.sec3 .s3main2 .s3m24 .img2 {
+    /* border: 1px solid red; */
+    display: none;
+}
+
+.sec3 .s3main2 .s3m24:hover .img2 {
+    display: block;
+}
+
+.sec3 .s3main3 {
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sec3 .s3main3 .s3m31 {
+    /* border: 1px solid black; */
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.sec3 .s3main3 .s3m31 .p1 {
+    font-family: "Caudex";
+    font-size: 25px;
+    color: #021A4A;
+}
+
+.sec3 .s3main3 .s3m31 .p2 {
+    font-family: "Lato Light";
+    font-weight: bold;
+    color: #021A4A;
+}
+
+.sec3 .s3main3 .s3m32 {
+    /* border: 1px solid black; */
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.sec3 .s3main3 .s3m32 .p1 {
+    font-family: "Caudex";
+    font-size: 25px;
+    color: #021A4A;
+}
+
+.sec3 .s3main3 .s3m32 .p2 {
+    font-family: "Lato Light";
+    font-weight: bold;
+    color: #021A4A;
+}
+
+
+.sec3 .s3main3 .s3m33 {
+    /* border: 1px solid black; */
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.sec3 .s3main3 .s3m33 .p1 {
+    font-family: "Caudex";
+    font-size: 25px;
+    color: #021A4A;
+}
+
+.sec3 .s3main3 .s3m33 .p2 {
+    font-family: "Lato Light";
+    font-weight: bold;
+    color: #021A4A;
+}
+
+.sec3 .s3main3 .s3m34 {
+    /* border: 1px solid black; */
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.sec3 .s3main3 .s3m34 .p1 {
+    font-family: "Caudex";
+    font-size: 25px;
+    color: #021A4A;
+}
+
+.sec3 .s3main3 .s3m34 .p2 {
+    font-family: "Lato Light";
+    font-weight: bold;
+    color: #021A4A;
+}
+
+footer {
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 1500px;
+    position: relative;
+    background-color: #F5F5F5;
+}
+
+footer .f1 {
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 800px;
+    position: relative;
+}
+
+footer .f1 video {
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+footer .f1 .content {
+    /* border: 1px solid black; */
+    width: 40%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 150px;
+    left: 500px;
+}
+
+footer .f1 .content .head {
+    font-family: "Caudex";
+    color: #021A4A;
+    font-size: 40px;
+}
+
+footer .f1 .content .text {
+    font-family: "Lato Light";
+    font-weight: 18px;
+    font-weight: bold;
+    color: #021A4A;
+    line-height: 25px;
+    letter-spacing: 1px;
+}
+
+footer .f1 .fimg1 {
+    /* border: 1px solid black; */
+    width: 19%;
+    height: 490px;
+    position: absolute;
+    top: 100px;
+    right: 500px;
+}
+
+footer .f1 .fimg1 img {
+    width: 100%;
+    height: 100%;
+}
+
+footer .f1 .fimg2 {
+    /* border: 1px solid black; */
+    width: 20%;
+    height: 260px;
+    z-index: 1;
+    position: absolute;
+    top: 500px;
+    right: 680px;
+}
+
+footer .f1 .fimg2 img {
+    width: 100%;
+    height: 100%;
+}
+
+footer .f2 {
+    /* border: 1px solid black; */
+    width: 90%;
+    height: 350px;
+    background-color: #021A4A;
+    position: absolute;
+    top: 700px;
+    left: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .f2 .f21 {
+    /* border: 1px solid red; */
+    width: 50%;
+    height: 100px;
+    display: flex;
+}
+
+footer .f2 .f21 .head {
+    width: 50%;
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .f2 .f21 .head p {
+    font-family: "Caudex";
+    font-weight: bold;
+    font-size: 40px;
+    color: #F5F5F5;
+}
+
+footer .f2 .f21 .text {
+    width: 40%;
+    /* border: 1px solid green; */
+}
+
+footer .f2 .f21 .text {
+    font-family: "Lato Light";
+    font-size: 18px;
+    font-weight: bold;
+    color: #F5F5F5;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+footer .f2 .f22 {
+    /* border: 1px solid red; */
+    width: 50%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .f2 .f22 .input {
+    /* border: 1px solid red; */
+    width: 80%;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer .f2 .f22 .input input {
+    width: 80%;
+    height: 100%;
+    outline: none;
+}
+
+footer .f2 .f22 .input input::placeholder {
+    font-family: "Lato Light";
+    font-weight: bold;
+    color: #021A4A;
+    font-size: 17px;
+    padding-left: 20px;
+}
+
+footer .f2 .f22 .input button {
+    font-family: "Lato Light";
+    font-weight: bold;
+    color: #021A4A;
+    font-size: 17px;
+    width: 19%;
+    height: 100%;
+}
+
+footer .f3 {
+    border: 1px solid #021A4A;
+    width: 90%;
+    height: 400px;
+    position: absolute;
+    top: 1050px;
+    left: 5%;
+    display: flex;
+}
+
+footer .f3 .f3a {
+    border: 1px solid #021A4A;
+    width: 40%;
+    height: 100%;
+}
+
+footer .f3 .f3a .p1 {
+    font-family: "Caudex";
+    font-size: 30px;
+    font-weight: bold;
+    color: #021A4A;
+    margin-top: 50px;
+    margin-left: 50px;
+    letter-spacing: 5px;
+}
+
+footer .f3 .f3a .p2 {
+    font-family: "Lato Light";
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #021A4A;
+    margin-top: 20px;
+    margin-left: 50px;
+    line-height: 30px;
+}
+
+footer .f3 .f3a .p3 {
+    font-family: "Lato Light";
+    font-weight: bold;
+    color: #021A4A;
+    margin-left: 50px;
+    margin-top: 120px;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+
+footer .f3 .f3b {
+    border: 1px solid #021A4A;
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+footer .f3 .f3b .a1 {
+    /* border: 1px solid black; */
+    width: 20%;
+    height: 70%;
+}
+
+footer .f3 .f3b .a1 ul {
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+footer .f3 .f3b .a1 ul li {
+    font-family: "Lato Light";
+    font-weight: bold;
+    color: #021A4A;
+    list-style-type: none;
+}
+
+footer .f3 .f3b .a2 {
+    /* border: 1px solid black; */
+    width: 20%;
+    height: 70%;
+}
+
+footer .f3 .f3b .a2 ul {
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+footer .f3 .f3b .a2 ul li {
+    font-family: "Lato Light";
+    font-weight: bold;
+    color: #021A4A;
+    list-style-type: none;
+}
+
+footer .f3 .f3b .a3 {
+    /* border: 1px solid black; */
+    width: 20%;
+    height: 70%;
+}
+
+footer .f3 .f3b .a3 ul {
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+footer .f3 .f3b .a3 ul li {
+    font-family: "Lato Light";
+    font-weight: bold;
+    color: #021A4A;
+    list-style-type: none;
+}
+
