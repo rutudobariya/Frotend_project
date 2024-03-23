@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: "Caudex", serif; */
+    font-family: "Poppins", sans-serif;
+}
+
+header {
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 1100px;
+}
+
+header .first {
+    /* border: 1px solid black; */
+    width: 50%;
+    height: 1100px;
+    float: left;
+}
+
+header .second {
+    /* border: 1px solid black; */
+    width: 50%;
+    height: 1100px;
+    float: right;
+    background-color: #FAD9D9;
+}
+
+.first .background {
+    position: absolute;
+    width: 50%;
+    height: 1000px;
+    background-image: url(Image/Background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    z-index: -1;
+    filter: blur(50px);
+}
+
+.first .content {
+    width: 100%;
+    height: 1000px;
+}
+
+.content .firstheading {
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: black;
+    margin-top: 100px;
+    margin-left: 60px;
+}
+
+.content .img img {
+    width: 65%;
+    height: 480px;
+    /* border: 1px solid black; */
+    border-radius: 30px;
+    margin-left: 17.5%;
+    margin-top: 150px;
+}
+
+.second .nav {
+    font-weight: 600;
+    text-align: right;
+    margin-top: 100px;
+    margin-right: 60px;
+}
+
+.second .secondcontent {
+    /* border: 1px solid black; */
+    width: 70%;
+    height: 770px;
+    margin-left: 15%;
+    margin-top: 90px;
+}
+
+.secondcontent .secondheading {
+    font-size: 55px;
+}
+
+.secondcontent .secondp1 {
+    font-size: 25px;
+}
+
+.secondcontent .div1 {
+    border: 1px solid gray;
+    width: 100%;
+    height: 50px;
+    margin-top: 20px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: white;
+    line-height: 50px;
+    font-weight: 600;
+}
+
+.secondcontent .div2 {
+    border: 1px solid gray;
+    width: 100%;
+    height: 50px;
+    margin-top: 20px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: white;
+    line-height: 50px;
+    font-weight: 600;
+}
+
+.secondcontent .div3 {
+    border: 1px solid gray;
+    width: 100%;
+    height: 50px;
+    margin-top: 20px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: white;
+    line-height: 50px;
+    font-weight: 600;
+}
+
+.secondcontent .div4 {
+    border: 1px solid gray;
+    width: 100%;
+    height: 50px;
+    margin-top: 20px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: white;
+    line-height: 50px;
+    font-weight: 600;
+}
+
+.secondcontent .fa-twitter {
+    margin-top: 40px;
+}
+
+.secondcontent .fa-facebook-f {
+    margin-left: 15px;
+}
+
+.secondcontent .fa-instagram {
+    margin-left: 15px;
+}
+
+.secondcontent .fa-youtube {
+    margin-left: 15px;
+}
+
+.secondcontent .fa-tiktok {
+    margin-left: 15px;
+}
+
+.secondcontent .secondp2 {
+    margin-top: 150px;
+    text-align: center;
+}
