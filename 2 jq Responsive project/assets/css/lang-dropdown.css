@@ -1,0 +1,31 @@
+.lang-dropdown .navbar-dropdown {
+  width: 180px;
+}
+
+.lang-dropdown .navbar-dropdown .navbar-item {
+  display: flex;
+  align-items: center;
+}
+
+.lang-dropdown .navbar-dropdown .navbar-item img {
+  display: block;
+  height: 26px;
+  width: 26px;
+  min-width: 26px;
+  border-radius: 50%;
+}
+
+.lang-dropdown {
+  width: 40px;
+  height: 40px;
+  background-color: #eaeaeb;
+  border-radius: 50%;
+  margin: 0 15px;
+}
+
+.lang-dropdown .navbar-dropdown .navbar-item span {
+  display: block;
+  margin-left: 10px;
+}
+
+/*# sourceMappingURL=lang-dropdown.css.map */
